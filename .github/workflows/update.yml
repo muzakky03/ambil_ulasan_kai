@@ -5,6 +5,10 @@ on:
     - cron: '0 18 * * *'   # 01:00 WIB
   workflow_dispatch:
 
+# TAMBAHKAN INI
+permissions:
+  contents: write
+
 jobs:
   run-script:
     runs-on: ubuntu-latest
@@ -24,7 +28,6 @@ jobs:
       - name: Run script
         run: python ambil_ulasan.py
 
-      # WAJIB: agar file hasil tersimpan
       - name: Commit & Push hasil
         run: |
           git config --global user.name "github-actions"
