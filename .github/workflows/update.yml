@@ -1,0 +1,34 @@
+name: Update Ulasan Playstore
+
+on:
+  schedule:
+    - cron: '0 18 * * *'   # 01:00 WIB
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install library
+        run: pip install google-play-scraper pandas
+
+      - name: Run script
+        run: python ambil_ulasan.py
+
+      # WAJIB: agar file hasil tersimpan
+      - name: Commit & Push hasil
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update ulasan otomatis"
+          git push
