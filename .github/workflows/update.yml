@@ -5,13 +5,12 @@ on:
     - cron: '0 18 * * *'   # 01:00 WIB
   workflow_dispatch:
 
-# TAMBAHKAN INI
-permissions:
-  contents: write
-
 jobs:
   run-script:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # WAJIB agar bisa push
 
     steps:
       - name: Checkout repo
@@ -28,10 +27,13 @@ jobs:
       - name: Run script
         run: python ambil_ulasan.py
 
-      - name: Commit & Push hasil
+      # ===============================
+      # Tambahan penting
+      # ===============================
+      - name: Commit & Push hasil CSV
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add .
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update ulasan otomatis"
+          git add data/ulasan_kai.csv
+          git commit -m "Update data ulasan otomatis" || echo "Tidak ada perubahan"
           git push
