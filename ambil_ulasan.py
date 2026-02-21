@@ -2,31 +2,57 @@ from google_play_scraper import reviews, Sort
 import pandas as pd
 import os
 
-# ID aplikasi KAI Access
-app_id = 'com.kai.kaiaccess'
+# ================== KONFIGURASI ==================
+APP_PACKAGE = 'com.kai.kaiaccess'
+JUMLAH_ULASAN = 200
 
-# Ambil ulasan
+# ================== AMBIL ULASAN ==================
 result, _ = reviews(
-    app_id,
+    APP_PACKAGE,
     lang='id',
     country='id',
     sort=Sort.NEWEST,
-    count=200
+    count=JUMLAH_ULASAN
 )
 
-# Konversi ke DataFrame
 df = pd.DataFrame(result)
 
-# Ambil kolom penting
+# ================== VALIDASI ==================
+if df.empty:
+    print("Data ulasan kosong, proses dihentikan")
+    exit()
+
+# Pastikan kolom ada
+kolom_wajib = ['content', 'score', 'at']
+for k in kolom_wajib:
+    if k not in df.columns:
+        print(f"Kolom {k} tidak ditemukan")
+        print("Kolom tersedia:", df.columns)
+        exit()
+
+# ================== AMBIL KOLOM SESUAI DASHBOARD ==================
 df = df[['content', 'score', 'at']]
 
-# Contoh label sentimen sederhana
-df['sentiment_predicted'] = df['score'].apply(
-    lambda x: 'positive' if x >= 4 else 'negative'
-)
+# ================== KONVERSI SENTIMEN ==================
+# Karena app.py butuh: sentiment_predicted
+def label_sentiment(score):
+    if score >= 4:
+        return 'positive'
+    elif score <= 2:
+        return 'negative'
+    else:
+        return 'neutral'
 
-# Simpan ke folder data
+df['sentiment_predicted'] = df['score'].apply(label_sentiment)
+
+# Hapus neutral (karena dashboard kamu hanya hitung pos & neg)
+df = df[df['sentiment_predicted'] != 'neutral']
+
+# ================== SIMPAN CSV ==================
 os.makedirs('data', exist_ok=True)
-df.to_csv('data/ulasan_kai.csv', index=False)
 
-print("Ulasan berhasil diperbarui!")
+file_path = 'data/ulasan_kai.csv'
+df.to_csv(file_path, index=False)
+
+print("CSV berhasil dibuat:", file_path)
+print("Jumlah data:", len(df))
