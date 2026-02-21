@@ -34,6 +34,6 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add data/ulasan_kai.csv
-          git commit -m "Update data ulasan otomatis" || echo "Tidak ada perubahan"
+          git add data/.gitkeep
+          git commit -m "Tambah folder data"
           git push
