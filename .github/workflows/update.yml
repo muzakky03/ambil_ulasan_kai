@@ -19,7 +19,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install library
-        run: pip install google-play-scraper pandas
+        run: pip install flask google-play-scraper pandas
 
       - name: Run script
         run: python app.py
