@@ -4,7 +4,7 @@ import os
 
 # ================== KONFIGURASI ==================
 APP_PACKAGE = 'com.kai.kaiaccess'
-JUMLAH_ULASAN = 200
+JUMLAH_ULASAN = 3000
 
 # ================== AMBIL ULASAN ==================
 result, _ = reviews(
