@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard KAI Access</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+
+    <style>
+    body {
+        background: #eef2f7;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    /* SIDEBAR */
+    .sidebar {
+        background: #0f172a;
+        color: #e2e8f0;
+        min-height: 100vh;
+        width: 260px;
+        position: fixed;
+        padding: 28px 22px;
+        box-shadow: 4px 0 20px rgba(0,0,0,0.25);
+    }
+
+    .sidebar h4 {
+        color: #38bdf8 !important;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+    }
+
+    /* MAIN */
+    .main-content {
+        margin-left: 260px;
+        padding: 35px 45px;
+    }
+
+    /* CARD STYLE MIRIP EXECUTIVE DASHBOARD */
+    .card-custom {
+        background: #ffffff;
+        border-radius: 14px;
+        box-shadow: 0 8px 24px rgba(15,23,42,0.08);
+        padding: 22px;
+        margin-bottom: 22px;
+        border: none;
+        transition: all 0.25s ease;
+    }
+
+    .card-custom:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 30px rgba(15,23,42,0.15);
+    }
+
+    /* SUMMARY CARD */
+    .card-custom h3 {
+        font-size: 28px;
+        margin-top: 8px;
+    }
+
+    /* CHART BOX */
+    .chart-box {
+        height: 360px;
+    }
+
+    /* TITLE */
+    h2 {
+        font-weight: 700;
+        color: #0f172a;
+    }
+
+    /* TABLE */
+    .table thead th {
+        background: #1e293b;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 0.85rem;
+        border: none;
+    }
+
+    .table tbody tr {
+        transition: 0.2s ease;
+    }
+
+    .table tbody tr:hover {
+        background: #f1f5f9;
+    }
+
+    .table td {
+        font-size: 0.9rem;
+    }
+
+    /* BADGE STYLE */
+    .badge {
+        border-radius: 20px;
+        font-size: 0.75rem;
+        padding: 6px 14px;
+    }
+
+    .bg-primary {
+        background: #2563eb !important;
+    }
+
+    .bg-danger {
+        background: #dc2626 !important;
+    }
+
+    /* FORM */
+    .form-select,
+    .form-control {
+        border-radius: 10px;
+        border: 1px solid #cbd5e1;
+        font-size: 0.85rem;
+    }
+
+    .form-select:focus,
+    .form-control:focus {
+        border-color: #2563eb;
+        box-shadow: 0 0 0 0.15rem rgba(37,99,235,0.2);
+    }
+
+    /* BUTTON */
+    .btn-primary {
+        background: #2563eb;
+        border: none;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 0.85rem;
+    }
+
+    .btn-primary:hover {
+        background: #1e40af;
+    }
+
+    /* PAGINATION */
+    .pagination .page-link {
+        border-radius: 8px;
+        margin: 0 3px;
+        color: #0f172a;
+        border: 1px solid #cbd5e1;
+        font-weight: 500;
+        font-size: 0.85rem;
+    }
+
+    .pagination .active .page-link {
+        background: #2563eb;
+        border-color: #2563eb;
+        color: white;
+    }
+
+    .pagination .page-link:hover {
+        background: #e2e8f0;
+    }
+
+    /* SUMMARY COLOR BLOCK STYLE */
+    .col-md-4:nth-child(1) .card-custom {
+        border-left: 6px solid #0f172a;
+    }
+
+    .col-md-4:nth-child(2) .card-custom {
+        border-left: 6px solid #2563eb;
+    }
+
+    .col-md-4:nth-child(3) .card-custom {
+        border-left: 6px solid #dc2626;
+    }
+</style>
+
+</head>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+    <h4 class="text-center mb-4 fw-bold text-primary">KAI ACCESS</h4>
+
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" class="form-control form-control-sm mb-2" required>
+        <button class="btn btn-primary btn-sm w-100 mb-3">Upload CSV</button>
+    </form>
+
+    <form method="get" action="/">
+        <select name="sentiment" class="form-select form-select-sm mb-2"
+                onchange="this.form.submit()">
+            <option value="all" {{ 'selected' if sentiment_filter == 'all' }}>Semua Sentimen</option>
+            <option value="positive" {{ 'selected' if sentiment_filter == 'positive' }}>Positif</option>
+            <option value="negative" {{ 'selected' if sentiment_filter == 'negative' }}>Negatif</option>
+        </select>
+
+        <select name="tahun" class="form-select form-select-sm mb-2"
+            onchange="this.form.submit()">
+        <option value="all" {{ 'selected' if tahun_aktif == 'all' }}>
+            Semua Tahun
+        </option>
+
+        {% for t in tahun_list %}
+            <option value="{{ t }}" {{ 'selected' if tahun_aktif == t|string }}>
+                {{ t }}
+            </option>
+        {% endfor %}
+    </select>
+    
+        <input type="hidden" name="bulan" value="{{ bulan_aktif }}">
+    </form>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="main-content">
+
+    <div class="d-flex justify-content-between mb-4">
+        <h2 class="fw-bold">Analisis Sentimen Pengguna</h2>
+
+        <select class="form-select w-auto"
+                onchange="location.href='/?bulan=' + this.value +
+                '&sentiment={{ sentiment_filter }}&tahun={{ tahun_aktif }}'">
+            <option value="all" {{ 'selected' if bulan_aktif == 'all' }}>Semua Bulan</option>
+            {% for m in bulan_list %}
+                <option value="{{ m }}" {{ 'selected' if bulan_aktif == m }}>
+                    {{ m }}
+                </option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <!-- SUMMARY -->
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <div class="card-custom text-center">
+                <small>Total Ulasan</small>
+                <h3 class="fw-bold text-dark">{{ total }}</h3>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card-custom text-center text-primary">
+                <small>Positif</small>
+                <h3 class="fw-bold">{{ pos }}</h3>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card-custom text-center text-danger">
+                <small>Negatif</small>
+                <h3 class="fw-bold">{{ neg }}</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- CHART -->
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <div class="card-custom chart-box">
+                <canvas id="pieChart"></canvas>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card-custom chart-box">
+                <canvas id="barChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- TABLE -->
+    <div class="card-custom">
+        <table class="table table-hover align-middle">
+            <thead>
+                <tr>
+                    <th>Ulasan</th>
+                    <th class="text-center">Label</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for u in ulasan %}
+                <tr>
+                    <td class="small text-muted">{{ u.teks }}</td>
+                    <td class="text-center">
+                        <span class="badge px-3 py-2
+                            {% if u.label|lower == 'positive' %} bg-primary
+                            {% elif u.label|lower == 'negative' %} bg-danger
+                            {% else %} bg-secondary
+                            {% endif %}">
+                            {{ u.label|capitalize }}
+                        </span>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- PAGINATION -->
+    <nav class="w-100 mt-3">
+        <ul class="pagination justify-content-center mb-0">
+
+            <li class="page-item {{ 'disabled' if current_page==1 }}">
+                <a class="page-link"
+                   href="/?page={{ current_page-1 }}&sentiment={{ sentiment_filter }}&bulan={{ bulan_aktif }}">
+                    Prev
+                </a>
+            </li>
+
+            {% set s = 1 if current_page<=3 else current_page-2 %}
+            {% set e = s+4 if s+4<=total_pages else total_pages %}
+            {% set s = e-4 if e-4>0 else 1 %}
+
+            {% for p in range(s, e+1) %}
+            <li class="page-item {{ 'active' if p==current_page }}">
+                <a class="page-link"
+                   href="/?page={{ p }}&sentiment={{ sentiment_filter }}&bulan={{ bulan_aktif }}">
+                    {{ p }}
+                </a>
+            </li>
+            {% endfor %}
+
+            <li class="page-item {{ 'disabled' if current_page==total_pages }}">
+                <a class="page-link"
+                   href="/?page={{ current_page+1 }}&sentiment={{ sentiment_filter }}&bulan={{ bulan_aktif }}">
+                    Next
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+
+</div>
+
+<!-- SCRIPT (TIDAK DIUBAH) -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const labels  = JSON.parse('{{ labels_grafik | tojson | safe }}');
+    const posData = JSON.parse('{{ tren_pos | tojson | safe }}');
+    const negData = JSON.parse('{{ tren_neg | tojson | safe }}');
+    const sentiment = "{{ sentiment_filter }}";
+
+    let datasets = [];
+
+    if (sentiment === "positive") {
+        datasets.push({
+            label: 'Positif',
+            data: posData,
+            backgroundColor: '#2563eb'
+        });
+    } 
+    else if (sentiment === "negative") {
+        datasets.push({
+            label: 'Negatif',
+            data: negData,
+            backgroundColor: '#dc2626'
+        });
+    } 
+    else {
+        datasets = [
+            {
+                label: 'Positif',
+                data: posData,
+                backgroundColor: '#2563eb'
+            },
+            {
+                label: 'Negatif',
+                data: negData,
+                backgroundColor: '#dc2626'
+            }
+        ];
+    }
+
+    new Chart(document.getElementById('barChart').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: datasets
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { position: 'top' },
+                title: {
+                    display: true,
+                    text: 'Tren Sentimen per Bulan'
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+
+    new Chart(document.getElementById('pieChart').getContext('2d'), {
+        type: 'pie',
+        data: {
+            labels: ['Positif', 'Negatif'],
+            datasets: [{
+                data: [
+                    Number("{{ pos }}"),
+                    Number("{{ neg }}")
+                ],
+                backgroundColor: ['#2563eb', '#dc2626']
+            }]
+        },
+        options: {
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { position: 'bottom' },
+                title: {
+                    display: true,
+                    text: 'Distribusi Sentimen (%)'
+                },
+                datalabels: {
+                    color: '#ffffff',
+                    font: {
+                        weight: 'bold',
+                        size: 20
+                    },
+                    formatter: (value, ctx) => {
+                        let total = ctx.chart.data.datasets[0].data
+                            .reduce((a, b) => a + b, 0);
+                        return ((value / total) * 100).toFixed(1) + '%';
+                    }
+                }
+            }
+        },
+        plugins: [ChartDataLabels]
+    });
+
+});
+</script>
+
+</body>
+</html>
