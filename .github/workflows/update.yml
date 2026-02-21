@@ -23,3 +23,12 @@ jobs:
 
       - name: Run script
         run: python ambil_ulasan.py
+
+      # WAJIB: agar file hasil tersimpan
+      - name: Commit & Push hasil
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update ulasan otomatis"
+          git push
