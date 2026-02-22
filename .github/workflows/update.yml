@@ -33,6 +33,11 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+          
           git add .
           git diff --quiet && git diff --staged --quiet || git commit -m "Update ulasan otomatis"
-          git push
+          
+          # Ambil perubahan terbaru dulu
+          git pull origin main --rebase
+          
+          git push origin main
