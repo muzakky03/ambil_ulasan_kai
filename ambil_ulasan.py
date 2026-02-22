@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # ================== KONFIGURASI ==================
-APP_PACKAGE = 'com.kai.kaiaccess'
+APP_PACKAGE = 'com.kai.kaiticketing'
 JUMLAH_ULASAN = 3000
 
 print("Mulai mengambil ulasan Playstore...")
