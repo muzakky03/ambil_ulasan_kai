@@ -2,13 +2,13 @@ from google_play_scraper import reviews, Sort
 import pandas as pd
 import os
 
-# ================== KONFIGURASI ==================
+# KONFIGURASI
 APP_PACKAGE = 'com.kai.kaiticketing'
 JUMLAH_ULASAN = 3000
 
 print("Mulai mengambil ulasan Playstore...")
 
-# ================== AMBIL ULASAN ==================
+# AMBIL ULASAN 
 result, _ = reviews(
     APP_PACKAGE,
     lang='id',
@@ -19,7 +19,7 @@ result, _ = reviews(
 
 df = pd.DataFrame(result)
 
-# ================== VALIDASI ==================
+# VALIDASI DATA
 if df.empty:
     print("Data ulasan kosong, proses dihentikan")
     exit()
@@ -32,10 +32,10 @@ for k in kolom_wajib:
         print("Kolom tersedia:", df.columns)
         exit()
 
-# ================== AMBIL KOLOM SESUAI DASHBOARD ==================
+# MBIL KOLOM SESUAI DASHBOARD 
 df = df[['content', 'score', 'at']]
 
-# ================== KONVERSI SENTIMEN ==================
+# KONVERSI SENTIMEN BERDASARKAN SKOR
 def label_sentiment(score):
     if score >= 4:
         return 'positive'
@@ -49,7 +49,7 @@ df['sentiment_predicted'] = df['score'].apply(label_sentiment)
 # Hapus neutral
 df = df[df['sentiment_predicted'] != 'neutral']
 
-# ================== SIMPAN CSV ==================
+# SIMPAN CSV 
 os.makedirs('data', exist_ok=True)
 
 file_path = 'data/ulasan_kai.csv'
