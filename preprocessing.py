@@ -26,7 +26,7 @@ def clean_text(text):
 df['content'] = df['content'].apply(clean_text)
 
 # Load Model
-model = joblib.load("model_svm.pkl")
+model = joblib.load("svm_model.pkl")
 vectorizer = joblib.load("tfidf.pkl")
 
 # Transform
