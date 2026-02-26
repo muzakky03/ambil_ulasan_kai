@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # ← WAJIB agar bisa push
+  contents: write
 
 jobs:
   run-script:
@@ -23,21 +23,26 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install library
-        run: pip install google-play-scraper pandas
+      - name: Install dependencies
+        run: |
+          pip install google-play-scraper pandas scikit-learn joblib
 
-      - name: Run script
+      # 1. Ambil ulasan terbaru
+      - name: Scraping Playstore
         run: python ambil_ulasan.py
 
+      # 2. Preprocessing + Prediksi SVM
+      - name: Preprocessing dan Prediksi
+        run: python preprocessing.py
+
+      # 3. Commit otomatis jika ada perubahan
       - name: Commit & Push hasil
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          
+
           git add .
           git diff --quiet && git diff --staged --quiet || git commit -m "Update ulasan otomatis"
-          
-          # Ambil perubahan terbaru dulu
+
           git pull origin main --rebase
-          
           git push origin main
