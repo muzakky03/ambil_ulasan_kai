@@ -1,4 +1,24 @@
 content,score,at,sentiment_predicted
+jos,5,2026-02-26 16:11:19,positive
+mantap,5,2026-02-26 15:21:07,positive
+mantap,5,2026-02-26 14:14:24,positive
+selalu memuaskan,5,2026-02-26 11:57:59,positive
+good,4,2026-02-26 11:14:03,positive
+baik,5,2026-02-26 07:57:42,positive
+alhamdulillah sangat bermanfaat,5,2026-02-26 07:30:40,positive
+alhamdulillah murah dan tepat waktunya,5,2026-02-26 06:42:26,positive
+makin lama ini aplikasi makin gembel deh makin sulit diakses padahal koneksi internet sudah ngebut coba team i t beri masukan ke management kai supaya perbaiki kapasitas servernya bikin server tambahan supaya bisa akses dimana mana besarin juga kapasitas bandwidth nya situs web ataupun aplikasinya kan diakses jutaan pelanggan kalau tidak update ya bgini kedodoran,1,2026-02-26 05:44:44,negative
+mantap aplikasi nya,5,2026-02-26 05:43:50,positive
+mempermudah aku untuk liat jadwal kereta ketika aku bepergian keluar kota,5,2026-02-26 05:29:31,positive
+good,5,2026-02-26 04:50:56,positive
+pertahankan,5,2026-02-26 02:58:44,negative
+pelayanan kai semakin baik terima kasih,5,2026-02-26 02:18:40,positive
+kereen,5,2026-02-25 23:10:12,negative
+saya sering menggunakan aplikasi ini kenapa sekarang tidak bisa di buka ngebleng terus,1,2026-02-25 22:17:04,negative
+sangat bagus,5,2026-02-25 21:34:44,positive
+bagus,5,2026-02-25 21:15:52,positive
+mau aplikasi,5,2026-02-25 20:51:18,negative
+ok,5,2026-02-25 19:06:33,negative
 padahal aku android tapi kok tidak kompatibel sih,2,2026-02-25 15:38:19,positive
 baru pertama kali mencoba moga mempermudahh,5,2026-02-25 14:31:30,positive
 keren,5,2026-02-25 14:27:11,positive
@@ -45,7 +65,6 @@ aplikasi perjalanan kereta lokal yang sangat berguna bagi masyarakat luas semoga
 terimakasih,5,2026-02-24 01:44:19,positive
 muantab sesuai jadwalnya,5,2026-02-24 00:54:58,positive
 aplikasi yang sangat bagus sangat membantu khususnya buat pemesanan tiket kereta,5,2026-02-23 23:53:29,positive
-ok,5,2026-02-23 22:12:13,negative
 ok,5,2026-02-23 14:43:31,negative
 aplikasi jelek banget,1,2026-02-23 14:33:38,negative
 okok,5,2026-02-23 12:05:08,negative
@@ -82,7 +101,6 @@ ok,5,2026-02-22 11:01:06,negative
 pegawai yang jagain tiket di st bandung judes,1,2026-02-22 09:25:13,negative
 baik,5,2026-02-22 09:16:28,positive
 masih lemot,4,2026-02-22 09:07:08,negative
-kemarin saya top up pakai livin ke e wallet nya acces kai dana udah kepotong tapi dana di e wallet gak bertambah,1,2026-02-22 06:01:51,negative
 lumayan terbantu sih tp kecewa dipembatalan tiket sdh masukin otp puluhan kali gagal terus padahal otp udah bener tp gagal mulu tolong dong kai pembatalan tiket nya kok eror terus,4,2026-02-22 05:08:22,positive
 mantap,5,2026-02-22 04:45:43,positive
 ketersediaan tiket sering tidak sesuai diaplikasi habis tp di stasiun masih sering tarif khusus jam sblm keberangkatan tidak ada lagi untuk jurusan dekat tanpa ada pengumuman resmi dari kai,5,2026-02-22 04:38:15,positive
@@ -148,7 +166,6 @@ akses mudah dan cepat,5,2026-02-19 13:36:20,positive
 bagus dan lengkap,5,2026-02-19 13:19:44,positive
 bagus simpel,5,2026-02-19 12:40:12,positive
 apasihh dengan aplikasi ini pengembalian dana nya begitu lama,1,2026-02-19 12:23:51,negative
-transportasi favorit dalam mengarungi perjalanan,5,2026-02-19 11:37:37,positive
 aplikasi apaan ini saya sudah top up saldo ribu tapi saldo saya tidak bertambah sama sekali padahal pada mbanking saya saldonya sudah terpotong tolong yang benar lah kai masa iya begini padahal biasanya lancar tidak ada masalah saya kecewa,1,2026-02-19 11:11:32,negative
 ok,5,2026-02-19 10:08:37,negative
 untuk aplikasinya mudah dan sangat membantu tapi untuk metode pembayaran apalagi saat top up masa saya top up sudah hampir hari nunggu saldonya tidak masuk tolong diperbaiki ya kalau begini terus akan sangat menyusahkan,5,2026-02-19 09:45:11,positive
@@ -2788,19 +2805,3 @@ aplikasi yang terlalu sulit menyulitakn pelnaggan,1,2025-12-09 23:20:56,negative
 terlalu pendek batas waktu yg diberikan,4,2025-12-09 21:25:39,positive
 jadi member basic verifikasi otp susah amat,1,2025-12-09 21:15:39,negative
 good,5,2025-12-09 20:35:50,positive
-ok,4,2025-12-09 17:31:49,negative
-dulu pake kai acsess sangat nyaman kalo gak jadi brangkt bisa di batal kan sekarang kok semakin jelek pelayanan kai masa cuma bisa boking dewasa orang gimana kalo kita punya anak blm ortu nya mau beli tiket nya gak bisa langsung kaya dulu tolong dong kai gmna solusi nya,1,2025-12-09 16:40:46,positive
-aplikasinya susah buka jadwal aja g konek g kayak dulu,1,2025-12-09 14:41:30,negative
-keren,5,2025-12-09 14:39:12,positive
-ok,5,2025-12-09 14:35:13,negative
-menyenangkan,5,2025-12-09 13:15:31,positive
-jangan melakukan pembayaran listrik di aplikasi ini mengecewakan beli token listrik di aplikasi ini niatnya yang adminnya kecil udah pembayaran melalui qris bank eh pas udah lunas bayar aplikasinya gak mendeteksi dan uangku udah kepotong di aplikasi ga ada riwayat pembelian laporan ke cs diminta nunggu hari kerja ya allah lama banget padahal nominalnya besar sampe sekarang tidak ada kejelasan,1,2025-12-09 13:03:35,negative
-beli asuransi biar kalo refund gak terkena potongan adm ehh ternyata pas refund masih kena potonga,1,2025-12-09 12:52:50,negative
-ga bisa di buka,1,2025-12-09 12:41:53,negative
-lbh mudah tp kadang aplikasinya dibuka susah,5,2025-12-09 12:32:40,positive
-bagus,5,2025-12-09 11:34:59,positive
-aplikasi ini sering crash kenapa ya sinyal bagus ram gede apa yg bikin crash,5,2025-12-09 11:28:16,negative
-membantu banget,5,2025-12-09 10:59:47,positive
-aplikasi bug mulu,1,2025-12-09 10:45:28,negative
-ok,5,2025-12-09 10:18:51,negative
-app kai acces di hp ini tidak bisa normal setelah melakukan pembelian tiket ka pandalungan dengan pembayaran di akun lain mohon solusi,5,2025-12-09 09:58:10,positive
