@@ -12,8 +12,10 @@
 
     <style>
     body {
-        background: #eef2f7;
-        font-family: 'Segoe UI', sans-serif;
+    background: #eef2f7;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px; 
+    color: #0f172a;
     }
 
     /* SIDEBAR */
@@ -25,6 +27,7 @@
         position: fixed;
         padding: 28px 22px;
         box-shadow: 4px 0 20px rgba(0,0,0,0.25);
+        font-size: 15px;
     }
 
     .sidebar h4 {
@@ -32,6 +35,7 @@
         font-weight: 700;
         letter-spacing: 1px;
         margin-bottom: 30px;
+        font-size: 22px;
     }
 
     /* MAIN */
@@ -58,7 +62,7 @@
 
     /* SUMMARY CARD */
     .card-custom h3 {
-        font-size: 28px;
+        font-size: 34px;
         margin-top: 8px;
     }
 
@@ -75,11 +79,11 @@
 
     /* TABLE */
     .table thead th {
-        background: #1e293b;
-        color: #ffffff;
-        font-weight: 600;
-        font-size: 0.85rem;
-        border: none;
+    background: #1e293b;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.9rem;   /* diperbaiki (sebelumnya terlalu besar) */
+    border: none;
     }
 
     .table tbody tr {
@@ -91,14 +95,15 @@
     }
 
     .table td {
-        font-size: 0.9rem;
-    }
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #334155;}
 
     /* BADGE STYLE */
     .badge {
         border-radius: 20px;
-        font-size: 0.75rem;
-        padding: 6px 14px;
+        font-size: 0.85rem;
+        padding: 7px 16px;
     }
 
     .bg-primary {
@@ -115,6 +120,7 @@
         border-radius: 10px;
         border: 1px solid #cbd5e1;
         font-size: 0.85rem;
+        padding: 7px 16px;
     }
 
     .form-select:focus,
@@ -143,7 +149,7 @@
         color: #0f172a;
         border: 1px solid #cbd5e1;
         font-weight: 500;
-        font-size: 0.85rem;
+        font-size: 0.95rem;
     }
 
     .pagination .active .page-link {
@@ -176,12 +182,9 @@
 <div class="sidebar">
     <h4 class="text-center mb-4 fw-bold text-primary">KAI ACCESS</h4>
 
-    <form action="/upload" method="POST" enctype="multipart/form-data">
-        <input type="file" name="file" class="form-control form-control-sm mb-2" required>
-        <button class="btn btn-primary btn-sm w-100 mb-3">Upload CSV</button>
-    </form>
-
     <form method="get" action="/">
+
+        <!-- Filter Sentimen -->
         <select name="sentiment" class="form-select form-select-sm mb-2"
                 onchange="this.form.submit()">
             <option value="all" {{ 'selected' if sentiment_filter == 'all' }}>Semua Sentimen</option>
@@ -189,20 +192,32 @@
             <option value="negative" {{ 'selected' if sentiment_filter == 'negative' }}>Negatif</option>
         </select>
 
+        <!-- Filter Tahun -->
         <select name="tahun" class="form-select form-select-sm mb-2"
-            onchange="this.form.submit()">
-        <option value="all" {{ 'selected' if tahun_aktif == 'all' }}>
-            Semua Tahun
-        </option>
-
-        {% for t in tahun_list %}
-            <option value="{{ t }}" {{ 'selected' if tahun_aktif == t|string }}>
+                onchange="this.form.submit()">
+            <option value="all" {{ 'selected' if tahun_aktif == 'all' }}>
+                Semua Tahun
+            </option>
+            {% for t in tahun_list %}
+            <option value="{{ t }}" {{ 'selected' if tahun_aktif|string == t|string }}>
                 {{ t }}
             </option>
-        {% endfor %}
-    </select>
-    
-        <input type="hidden" name="bulan" value="{{ bulan_aktif }}">
+            {% endfor %}
+        </select>
+
+        <!-- Filter Bulan -->
+        <select name="bulan" class="form-select form-select-sm mb-2"
+                onchange="this.form.submit()">
+            <option value="all" {{ 'selected' if bulan_aktif == 'all' }}>
+                Semua Bulan
+            </option>
+            {% for m in bulan_list %}
+            <option value="{{ m }}" {{ 'selected' if bulan_aktif == m }}>
+                {{ m }}
+            </option>
+            {% endfor %}
+        </select>
+
     </form>
 </div>
 
@@ -211,17 +226,6 @@
 
     <div class="d-flex justify-content-between mb-4">
         <h2 class="fw-bold">Analisis Sentimen Pengguna</h2>
-
-        <select class="form-select w-auto"
-                onchange="location.href='/?bulan=' + this.value +
-                '&sentiment={{ sentiment_filter }}&tahun={{ tahun_aktif }}'">
-            <option value="all" {{ 'selected' if bulan_aktif == 'all' }}>Semua Bulan</option>
-            {% for m in bulan_list %}
-                <option value="{{ m }}" {{ 'selected' if bulan_aktif == m }}>
-                    {{ m }}
-                </option>
-            {% endfor %}
-        </select>
     </div>
 
     <!-- SUMMARY -->
@@ -275,7 +279,7 @@
             <tbody>
                 {% for u in ulasan %}
                 <tr>
-                    <td class="small text-muted">{{ u.teks }}</td>
+                    <td class="text-muted">{{ u.teks }}</td>
                     <td class="text-center">
                         <span class="badge px-3 py-2
                             {% if u.label|lower == 'positive' %} bg-primary
