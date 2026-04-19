@@ -3,6 +3,8 @@ import re
 import joblib
 import os
 
+from sklearn.metrics import accuracy_score
+
 DATA_PATH = "data/ulasan_kai.csv"
 
 # Cek file ada
@@ -25,6 +27,17 @@ def clean_text(text):
 
 df['content'] = df['content'].apply(clean_text)
 
+# label_asli dari score 
+def label_sentiment(score):
+    if score >= 4:
+        return 'positive'
+    elif score <= 2:
+        return 'negative'
+    else:
+        return 'neutral'
+
+df['label_asli'] = df['score'].apply(label_sentiment)
+
 # Load Model
 model = joblib.load("svm_model.pkl")
 vectorizer = joblib.load("tfidf.pkl")
@@ -34,6 +47,10 @@ X = vectorizer.transform(df['content'])
 
 # Prediksi
 df['sentiment_predicted'] = model.predict(X)
+
+# Hitung Akurasi (label_asli & hasil model)
+accuracy = accuracy_score(df['label_asli'], df['sentiment_predicted'])
+print(f"Akurasi Model: {accuracy}")
 
 # Simpan kembali (overwrite)
 df.to_csv(DATA_PATH, index=False)
