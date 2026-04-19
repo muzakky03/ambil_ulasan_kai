@@ -2,7 +2,7 @@ name: Update Ulasan Playstore
 
 on:
   schedule:
-    - cron: '0 18 * * *'   # 01:00 WIB
+    - cron: '0 18 * * *'
   workflow_dispatch:
 
 permissions:
@@ -27,22 +27,23 @@ jobs:
         run: |
           pip install google-play-scraper pandas scikit-learn joblib
 
-      # 1. Ambil ulasan terbaru
       - name: Scraping Playstore
         run: python ambil_ulasan.py
 
-      # 2. Preprocessing + Prediksi SVM
       - name: Preprocessing dan Prediksi
         run: python preprocessing.py
 
-      # 3. Commit otomatis jika ada perubahan
       - name: Commit & Push hasil
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
           git add .
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update ulasan otomatis"
 
-          git pull origin main --rebase
-          git push origin main
+          if git diff --staged --quiet; then
+            echo "Tidak ada perubahan data"
+          else
+            git commit -m "Update data ulasan otomatis"
+            git push
+            echo "Data berhasil diperbarui dan di-push"
+          fi
