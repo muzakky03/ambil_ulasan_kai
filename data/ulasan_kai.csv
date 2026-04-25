@@ -1,4 +1,22 @@
 content,score,at,sentiment_predicted
+banyak bug nya pemesanan tiket banyak erornya,1,2026-04-24 17:03:00,negative
+baik pelayanan dan ada fasilitas musholla juga tempat wudhu kaki agar dijaga dan lebih ditingkatkan lagi pelayanannya,4,2026-04-24 15:22:59,positive
+oke,5,2026-04-24 15:00:26,positive
+keseringan gangguan tidak berkualitas,1,2026-04-24 12:46:03,negative
+sangat berkesan menggunakan aplikasi ini,5,2026-04-24 12:11:07,negative
+lancar dari jakarta ke bali aman dan nyaman,4,2026-04-24 09:02:22,positive
+tolong tambahankan pemesanan porter di pemesanan tiket kadang kita pesan tiket itu untuk orang tua jadi bisa sekalian pesan porter untuk bawa barangnya biar tidak cari porter lagi terimakasih,5,2026-04-24 06:06:17,positive
+aplikasi nya mudah digunakan,5,2026-04-24 05:35:38,positive
+tidak bisa upgrade member basic susah sekali tidak bisa parah gimana kai access,1,2026-04-24 05:30:12,negative
+mantap,5,2026-04-24 05:17:17,positive
+mahal gak ada subsidi dari cikampek karawang lawak ditinggal kalah sama pesawat bis dll,1,2026-04-24 05:03:56,negative
+android tidak kompatibel,5,2026-04-24 03:45:27,negative
+mohon maaf saya lagi promil saya kebetulan tidak dapet tiket dikereta lokal saya numpang ditempat duduk untuk lansia untuk yg sedang hamil dan sakit kenapa saya disuruh untuk pindah trs ya semoga ada kemajuan untuk kereta lokal dan saya baru pertama kali ini diperlakukan seperti ini untuk kereta lokal commuter line penataran jombang ke surabaya,1,2026-04-24 01:01:46,positive
+gk bisa verifikasi otp pdhl udh bnr dicoba selama hari pun sama aja hasilnya,1,2026-04-24 00:00:40,negative
+membantu,5,2026-04-23 23:53:38,positive
+begadang jam bela belain beli tiket aplikasi blank ga bisa beli tiket sampe jam bangun bangun tiket sudah habis h,1,2026-04-23 23:47:29,negative
+penampilan aplikasi sudah lebih baik namun untuk pengecekan tiket hanya bisa kali dan lebih dari itu tidak tampil sama sekali tiket yang dicari walaupun tgl masih available masih lebih baik aplikasi yang lamanya,1,2026-04-23 22:32:32,negative
+aplikasi sampah susah banget,1,2026-04-23 22:15:31,negative
 kadang jadwal yang dicari ga muncul dan lama banget padahal tiket rute ini apalagi weekend selalu ramai tolong diperbaiki sudah menit dicoba tetap ga keluar jadwalnya terimakasih,1,2026-04-23 17:19:19,negative
 tiap cek jadwal kereta lokal jam pasti blank nanti di cek jam sudah banyak yg habis,1,2026-04-23 17:05:45,negative
 sangat bagus berkembang lebih baik ya,5,2026-04-23 17:04:04,positive
@@ -155,7 +173,6 @@ bagus banget jadi mudah beli tiket kapanpun,5,2026-04-16 14:15:32,positive
 ,5,2026-04-16 14:14:49,negative
 nyaman naik kereta jadwal pasti,5,2026-04-16 13:42:37,positive
 kenapa susah d download,5,2026-04-16 13:07:59,negative
-bagus banget jadi gk ngantri di loket semoga st brebes jawa tengah menjadi st besar tambah kereta nya amin solnya setip mau berangkat pagi sore mlm siang susah solnya gk ada keberatan pagi mlm sore siang tolong dong stasiun brebes tambah kereta lagi ka majapahit sama ka brawijaya ka blambangan ekspres ka gumarang ka pandalungan ka argo anjasmoro ka argo merbabu ka argo muria ka sindoro bisa di perpanjang sape brebes amin,5,2026-04-16 12:38:58,positive
 ini kenapa harga kereta api lokal sama antarkotanya jadi sama baru buka kai lagi perasaan dulu ngga gini deh ngebug kah ini,2,2026-04-16 11:47:46,negative
 aplikasi tidak seperti dulu sekrang sering muncul aplikasi pemberharuan truss jadi ke ganggu mau pesan tikett,1,2026-04-16 11:46:25,negative
 akhir akhir ini sering muncul bug sesi habis sesi pemesanan kereta telah berakhir ketika mau memilih kereta padahal belum lama buka aplikasi,2,2026-04-16 11:30:13,negative
@@ -575,7 +592,6 @@ good good lebih ditingkatkan lagi aja pelayanan ya agar konsumen kereta api mera
 bgs apk nya,5,2026-04-02 06:41:58,negative
 mantap,5,2026-04-02 06:28:38,positive
 bagus,4,2026-04-02 05:49:52,positive
-sangat membantu,5,2026-04-02 04:49:59,positive
 potongan pengembalian mohon dikurangi,4,2026-04-02 04:44:14,negative
 keren,5,2026-04-02 04:43:14,positive
 hellooo saya gak bisa beli tiket ini saya pencet berkali gak bisa buka,4,2026-04-02 04:42:47,negative
@@ -695,7 +711,6 @@ sangat buruk sekali ini apl sumpah bug nya kebangetan mau refund tiket aja sampe
 kurang puas,1,2026-03-29 13:26:00,positive
 alhamdulillah,5,2026-03-29 13:20:06,positive
 ok,5,2026-03-29 12:56:17,negative
-gangguan mulu aplikasinya gak bisa buat nyari rute kereta,2,2026-03-29 12:37:32,negative
 bnyk kendala,2,2026-03-29 12:26:31,positive
 mau kasih saran kalo di pilihan stasiun keberangkatan ga ada jadwal kereta dari aplikasi mungkin bisa kasih rekomendasi stasiun lain yg masih kota yg ada jadwal keretanya jadinya pengguna ga bingung harus berkali kali cek stasiun berangkat dan tujuan gitu semoga bahasaku bisa dimengerti ya biar bisa buat perbaikan kedepannya,4,2026-03-29 11:55:33,positive
 sangat mudah d pahami,5,2026-03-29 11:48:40,positive
@@ -2813,18 +2828,3 @@ kenapa ya sulit dibuka,1,2026-02-02 02:36:29,negative
 mudah,5,2026-02-02 02:34:30,positive
 bagus,5,2026-02-02 02:19:47,positive
 bener tidak rekomen undu aplikasi ini cuma buang kuota aja sangat buruk mendaftar aja sampai berbulan bulan nggk ada verifikasi,5,2026-02-02 02:06:03,negative
-cara cepat lebih aman,5,2026-02-02 01:49:22,positive
-kenapa susah pesen tiket buat lebaran ya padahal udah masuk menu pemesanan tapi infonya seat not available,1,2026-02-02 01:15:20,positive
-bagus,4,2026-02-02 01:13:42,positive
-lebih informatif dari sebelumnya,5,2026-02-02 01:10:48,positive
-good,5,2026-02-02 00:59:52,positive
-aneh udah bayar refund tapi pas di refund ga,1,2026-02-02 00:43:04,negative
-sangat membantu cm jadi tidak membantu kalau tarif khususnya kadang pas go show tidak berubah atau kadang telat ganti harga,5,2026-02-01 23:19:08,positive
-sangat memudahkan untuk pembelian tiket kereta api,5,2026-02-01 23:17:22,positive
-ok,5,2026-02-01 22:58:21,negative
-sangat baik,5,2026-02-01 22:35:46,positive
-jngn kasih akses sblm jam stngh atau jam kebiasaan di stasiun rangkasbitung jam brpapun klo hari senin brangkat subuh orang orang stngh aja udh pada mangap kasian yg rumah nya jauh ngeselin juga orang orang yg mangap aja baru stngh,1,2026-02-01 22:29:37,negative
-maaf padahal saya sudah menunggu jam malam agar tidak kehabisan tiket tetapi begitu saya masuk harus mengantri terlebih dahulu ini karena sistemnya update ya padahal dulu ga kaya gini bagusan yang dulu setelah antri panjang dan lama menit akhirnya bisa masuk dan memilih penumpang dan setelah memilih penumpang untuk melanjutkan pemilihan kursi ini sangat lama sekali dicoba berulang kali gagal gagal dan gagal sampai akhirnya saya kehabisan tiket jujur kecewa banget,1,2026-02-01 22:15:52,negative
-memudahkan,5,2026-02-01 21:46:24,positive
-waduh gimana ni uang saya ga balik tiket ga dapet tpi saldo ketarik,1,2026-02-01 19:54:41,negative
-bagus,5,2026-02-01 19:18:27,positive
