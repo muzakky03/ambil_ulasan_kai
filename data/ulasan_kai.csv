@@ -1,4 +1,31 @@
 content,score,at,sentiment_predicted
+jos jis,5,2026-05-12 17:32:05,positive
+bodoh kebanyakan maintenance,1,2026-05-12 16:32:31,positive
+sangat mudah aku baru pakek aplikasi ini tapi bagus banget suka,5,2026-05-12 15:16:59,positive
+bagus,5,2026-05-12 15:02:52,positive
+pembatalan tiket susah dan ribet kalau memang tidak bisa dibatalkan kalau pakai nama orang lain sebaiknya dikatakan di aplikasi dari awal kalau tidak boleh pesan tiket atas nama orang lain,5,2026-05-12 13:03:59,negative
+perjalanan aman ada di genggaman anda,5,2026-05-12 11:34:39,positive
+banyak erornya apaan semua rute yang biasanya aku pesan tiba tiba rute tidak tersedia terus ada grafik gambar kereta ayo diperbaiki ya jangan bikin orang emosi apalagi waktunya mepet,1,2026-05-12 11:29:34,negative
+alhamdulilah cepet makasih kai,5,2026-05-12 11:25:05,positive
+bagus dn baik,5,2026-05-12 11:19:33,positive
+makin ampas udh cancel perjalanan mau pesan lagi malah gabisa,1,2026-05-12 10:50:53,positive
+terimakasih pelayanan cepat,4,2026-05-12 10:38:32,positive
+tidak bisa login padahal udah punya akun,1,2026-05-12 09:07:59,negative
+sangat membantu,5,2026-05-12 05:30:24,positive
+aplikasinya sangat mudah dan membantu buat saya,5,2026-05-12 05:30:21,positive
+mantap,5,2026-05-12 04:43:03,positive
+bagus,5,2026-05-12 04:38:12,positive
+kecewa banget dengan pusat bantuannya lama banget gak di proses proses,1,2026-05-12 04:10:12,negative
+bagus pelayanannya,5,2026-05-12 03:48:16,positive
+bagus,5,2026-05-12 03:44:23,positive
+baik,5,2026-05-12 03:30:43,positive
+agak bingung masuk aplikasinya,4,2026-05-12 03:25:17,negative
+baik cuman biaya pembatalan terlalu tinggi,4,2026-05-12 02:47:40,positive
+sangat baik,5,2026-05-12 02:31:26,positive
+mudah,5,2026-05-12 02:20:05,positive
+baik,5,2026-05-12 01:42:02,positive
+kasih bintang dulu karna email sesuai dan ketika masukin kode otp ga mau masuk terus dan lama loading nya juga pas masukin no tlp malahan jadi tidak terdaftar,1,2026-05-12 01:34:27,negative
+aplikasi baik dan respon sip,5,2026-05-12 01:27:31,positive
 exsecutiv joss jakarta jogja jempol tapi syang kecut bgt gada ruangan buat smoking naik buus aja ada ruangan buat yg smoking khusus andai kai ada in ruangan buat smoking gua rasa gua naik kreta trus gak naik pesawat ataupun buus,5,2026-05-11 18:27:53,negative
 knp ya nggak bisa di download semenjak hp saya di riset,5,2026-05-11 16:18:47,positive
 sumpah ya ini aplikasi kai bikin gedeg mau mesen jadwal kereta harus jd pengguna basic dulu udh daftar muter trs nyuruh daftar member basic ada kali x gw mesti daftaf brulang ga bisa udh mana salah mesen gerbong dan tetep mesti daftat member basic sampe gw pesennya di traveloka loh malah ga error coba dong kai di benerin aplikasi sering bgt error bikin gw gedeg,1,2026-05-11 16:18:04,negative
@@ -548,7 +575,6 @@ pembayaran pake qris dana beli tiket gagal saldo kepotong cs kai dan cs commer d
 server busuk masa udah gue bayar tapi tiket nya gak muncul sama sekali malah di kata error lah mau dibatalin juga gabisa tolong perbaiki secepatnya soalnya sebagai pengguna kai sejati merasa dkrugikan,1,2026-04-26 04:28:54,negative
 duit di ambil tiket gaada lapor cs susah gimana nih mau tanggungjawab kemana,1,2026-04-26 04:27:20,negative
 kenapa sudah bayar tapi tiket gak muncul ini bagaimana ya mana udah kali penipuan kah aplikasi ini udah kali dana gak balik kenapa tolong jelas kan biar gak ada salah paham ini mana dana gak balik,1,2026-04-26 04:26:10,negative
-sistem sedang error mohon diperbaiki gak bisa book kereta,4,2026-04-26 04:19:58,negative
 apaan ini kai awalnya ku kasih bintang sekarang bintang satu mengecewakan habis update barusan aku pesen tiket di sesi pembayaran tiba eror keluar ke home sendiri tak cari tiket di menu tiket buat mastiin pembayaran ulang malah tiket nya ga ada mau pesen ulang tikenya malah ada notif bahwa udah pesen boking tiket di jam kereta itu hadeh mana lagi ada kerjaan buru pula udah ganti ganti identitas buat bisa kebeli tiket tetep sama tiba eror chat dan telfon layanan juga ga ada respon,1,2026-04-26 04:17:22,negative
 terdapat bug yang mengecewakan ketika saya pesan kursi di hari dan jam yg sebelumnya sudah saya booking namun saat pembayaran tidak muncul halaman pembayaran ketika saya pesan ulang malah tidak bisa dikarenakan sudah booking di hari dan jam yg sama ini bagaimana masa harus booking di jam berbeda saya ada perlu sehingga pesan di jam tersebut sangat mengecewakan,1,2026-04-26 04:16:51,negative
 gmna sih pembayaran pke qris aja gk bisa pembayaran gagal gk ada pengembalian dana duit hangus gitu aja yg bener dong kai klo bikin apk,1,2026-04-26 04:08:24,negative
@@ -2788,27 +2814,3 @@ sangat baik dan sangat membantu,5,2026-02-21 21:07:52,positive
 sangat memudahkan,5,2026-02-21 20:58:32,positive
 mau masuk apk susah sedang ada pemeliharaan teruss,1,2026-02-21 17:34:03,negative
 kenapa gk bisa dibuka woi udah hari dah instal ulang brp kali ttp gk bisa,1,2026-02-21 15:06:23,positive
-semoga tambah banyak fitur yang membantu memudahkan pengguna,5,2026-02-21 13:18:16,positive
-udah di update malah kek knt l ada update an baru bukannya malah tambah bagus malah jadi ampas buka aplikasi udah menitan masih ae ngeload berandanya,1,2026-02-21 12:33:33,negative
-kalau beli tiket kereta pasti lewat kai acces,5,2026-02-21 12:17:58,negative
-aplikasi nya sangat membantu terimakasih,5,2026-02-21 10:54:18,positive
-mantab kai memberikan kemudahan bintang lima pokokmen,5,2026-02-21 09:33:02,positive
-terlalu sering update,1,2026-02-21 07:17:51,negative
-ok,4,2026-02-21 06:25:11,negative
-lebih mudah pakai acsess kai,5,2026-02-21 05:19:53,positive
-setiap lebaran tidak bisa diakses,2,2026-02-21 05:18:14,negative
-aplikasi nya sangat jelek bgt ga bisa masuk jadi akun member basic dan respon nya juga lambat bgttt,1,2026-02-21 04:23:44,negative
-ini pertama kalinya saya menggunakan tiket lansia mendapatkan reduksi alhmdulillah kai memperhatikan kami lansia terima kasih,5,2026-02-21 04:08:00,positive
-mempermudah proses pembelian tiket kereta api sangat membantu sekali,5,2026-02-21 03:23:33,positive
-bagus praktis,5,2026-02-21 02:52:07,positive
-bagus,5,2026-02-21 02:16:44,positive
-pelayanan bagus dan cepat,5,2026-02-21 01:26:10,positive
-topup kai pay via bni va sudah hari saldo blm masuk terimakasih,1,2026-02-21 00:53:43,negative
-okokokok,5,2026-02-21 00:41:30,negative
-josss mantap,5,2026-02-20 23:17:56,positive
-kemudahan pembelian tiket secara real time,5,2026-02-20 22:14:08,positive
-ok,5,2026-02-20 21:15:21,negative
-baik,5,2026-02-20 21:02:16,positive
-mudah dan nggak merepotkan,5,2026-02-20 16:01:35,positive
-ketika membeli tiket lalu tidak sengaja ke menu utama tidak ada cara kembali ke bagian pembayaran lalu ketika membeli tiket ulang terjadi error tiket duplikat,1,2026-02-20 14:24:15,negative
-pengembalian dana sangat lama bahkan setelah menunggu hari masih blom dikembalikan tolong lah pengembalian ny segera proses untuk saya kecewa hanya sekedar pengembalian dana lama sekali,1,2026-02-20 13:54:36,negative
