@@ -4,6 +4,9 @@ import joblib
 import os
 
 from sklearn.metrics import accuracy_score
+from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
+
+stopword = StopWordRemoverFactory().create_stop_word_remover()
 
 DATA_PATH = "data/ulasan_kai.csv"
 
@@ -21,8 +24,10 @@ df = df[['content', 'score', 'at']]
 # Cleaning Text
 def clean_text(text):
     text = str(text).lower()
-    text = re.sub(r'[^a-zA-Z\s]', ' ', text)
-    text = re.sub(r'\s+', ' ', text).strip()
+    text = re.sub(r"http\S+", "", text)
+    text = re.sub(r"[^a-z\s]", " ", text)
+    text = stopword.remove(text)
+    text = re.sub(r"\s+", " ", text).strip()
     return text
 
 df['content'] = df['content'].apply(clean_text)
