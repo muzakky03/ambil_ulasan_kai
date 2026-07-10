@@ -24,7 +24,7 @@ def load_data():
     if not csv_path:
         return None
 
-    df = pd.read_csv(csv_path)
+    df = pd.read_csv("https://raw.githubusercontent.com/muzakky03/ambil_ulasan_kai/main/data/ulasan_kai.csv")
 
     required_cols = {'content', 'sentiment_predicted', 'at'}
     if not required_cols.issubset(df.columns):
