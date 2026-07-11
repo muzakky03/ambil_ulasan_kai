@@ -25,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install google-play-scraper pandas scikit-learn joblib
+           pip install google-play-scraper pandas scikit-learn joblib Sastrawi
 
       - name: Scraping Playstore
         run: python ambil_ulasan.py
