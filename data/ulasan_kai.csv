@@ -1,4 +1,18 @@
 content,score,at,label_asli,sentiment_predicted
+sangat bagus sangat dibutuhkan traveling,5,2026-07-21 19:25:19,positive,positive
+semua metode pembayaran hilang adanya cuma cuma kai pay ovo jadi ribet,4,2026-07-21 17:02:15,positive,positive
+lancar jaya,5,2026-07-21 14:18:10,positive,positive
+tiap kereta lewat langsung siinyal kagak emang hama kereta inu,1,2026-07-21 13:59:56,negative,positive
+bener bener kecewa sama aplikasi sampah programmer bayar gaji buta apliaksi error gini apa test dulu kok di publish programmer lulusan mana kebanyakan di korupsi cari programmer begini,1,2026-07-21 13:31:32,negative,negative
+,5,2026-07-21 13:28:12,positive,positive
+enak cepat kalau mau pesen,5,2026-07-21 10:01:18,positive,positive
+mantap,5,2026-07-21 09:30:11,positive,positive
+cepat,5,2026-07-21 08:23:45,positive,positive
+good service,5,2026-07-21 07:04:58,positive,positive
+bagus,5,2026-07-21 03:32:29,positive,positive
+sangat memudahkan pesan kereta,5,2026-07-21 02:28:28,positive,positive
+,5,2026-07-21 01:47:14,positive,positive
+keren sih,5,2026-07-20 23:48:12,positive,positive
 we cok saldoku onok malah gagal ikuloh it ne magang iki seng gena nek kerjo woy ra iso mesen tiket iki loh ga isok kerjo aku,1,2026-07-20 17:38:39,negative,negative
 saldo kepotong status tiket lunas,1,2026-07-20 17:32:09,negative,negative
 biaya pembatalan terlalu besar padahal dalam waktu cukup lama,2,2026-07-20 16:07:37,negative,positive
@@ -817,7 +831,6 @@ wow tiketnya sangat murah efisien ketepat waktunya tepat jamnya sangat tepat wak
 ,5,2026-06-22 10:16:03,positive,positive
 gaasss poll,5,2026-06-22 10:15:55,positive,positive
 sumpa apk gajelas bgt masa abis beli tiket mau pembayaran suruh sambungkan ovo shopee pay ovo gabisa oke shopee trs waktu udh is is saldo dihubungkan balek apk kai gabisa tiketnya udh booking cmn nunggu pembayaran wkwk lah trs kek mana caraku bayar gada fitur buat bayarnya aneh bgt mau batalin jg gabisa nunggu waktu pembayaran nya habis kocak kocak lucu nih aplikasi,1,2026-06-22 10:01:07,negative,negative
-mantap tulisan pilih kursi tidak tombol buat pilih kursi kupencet semua gak gimana padahal idah batalin beli berubah kursinya menandakan opsi,5,2026-06-22 09:25:35,positive,negative
 serinh eror update terbaru,2,2026-06-22 09:15:51,negative,positive
 memudahkan pembelian tiket kereta proses cepat praktis,5,2026-06-22 08:49:58,positive,positive
 ,5,2026-06-22 08:22:55,positive,positive
@@ -850,7 +863,6 @@ bgus,5,2026-06-21 07:58:28,positive,positive
 x isi saldo lewat aplikasi malah ilang saldonya inii,1,2026-06-21 07:53:15,negative,negative
 aplikasi sejak d update jadi buruk,2,2026-06-21 07:17:39,negative,negative
 sangat mudah gunakan sangat membantu perjalanan,5,2026-06-21 06:50:56,positive,positive
-aplikasi nya ga jelas waktu mau chek kereta awalnya baru ganti tanggal aja udah hilang ketersediaan kereta padahal tadi pas chek semua tanggal malah ga semua perbaiki dong mau pesen tiket jadi ribet gini,1,2026-06-21 06:39:42,negative,negative
 makin lama makin jelek apknya masak pesan ka area jatim malah kosong terus malah pake apk kan aneh,1,2026-06-21 06:36:55,negative,negative
 susah,1,2026-06-21 06:13:48,negative,positive
 mantap mudah,5,2026-06-21 02:31:14,positive,positive
@@ -2791,16 +2803,3 @@ membantu,5,2026-04-23 23:53:38,positive,positive
 begadang jam bela belain beli tiket aplikasi blank ga beli tiket sampe jam bangun bangun tiket habis h,1,2026-04-23 23:47:29,negative,negative
 penampilan aplikasi lebih baik untuk pengecekan tiket bisa kali lebih itu tampil sama sekali tiket dicari walaupun tgl available lebih baik aplikasi lamanya,1,2026-04-23 22:32:32,negative,positive
 aplikasi sampah susah banget,1,2026-04-23 22:15:31,negative,positive
-kadang jadwal dicari ga muncul lama banget padahal tiket rute apalagi weekend selalu ramai diperbaiki menit dicoba tetap ga keluar jadwalnya terimakasih,1,2026-04-23 17:19:19,negative,negative
-tiap cek jadwal kereta lokal jam blank di cek jam banyak yg habis,1,2026-04-23 17:05:45,negative,negative
-sangat bagus berkembang lebih baik,5,2026-04-23 17:04:04,positive,positive
-aplikasi sering dapat digunakan sangat sering maintenance,1,2026-04-23 16:06:49,negative,positive
-bagus sangat bermanfaat,5,2026-04-23 13:04:06,positive,positive
-oke,5,2026-04-23 12:54:49,positive,positive
-add support android dong,1,2026-04-23 11:26:22,negative,negative
-mantaappp,5,2026-04-23 11:11:55,positive,positive
-daftar akun basic gk anjiirrrr,2,2026-04-23 08:06:11,negative,negative
-bikin aplikasi bukan a makin mudah malah bikin dongkol data bener gak masuk udh coba x tetep aja gak isi data,1,2026-04-23 07:46:03,negative,negative
-sih hrs buat aplikasi gw jadi ketinggalan kereta sama belinya awal ga di akhir niat ga sih bikin aplikasi,1,2026-04-23 07:11:01,negative,negative
-untuk asuransi pembatalan tiketnya qo a tinjau bekerja samalah asuransi amanah bukan yg ribet sdh berbulan bulan klaim gak beres di chat di suruh menunggu heran koq pt kai bekerja sama dgn asuransi abal,2,2026-04-23 06:30:29,negative,negative
-siiippppp,5,2026-04-23 04:27:35,positive,positive
