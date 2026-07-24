@@ -1,4 +1,27 @@
 content,score,at,label_asli,sentiment_predicted
+nyaman sih ekonomi yg ku suka,4,2026-07-23 15:42:21,positive,positive
+bagus,5,2026-07-23 13:56:30,positive,positive
+habis update erorr ga jelass,1,2026-07-23 13:56:24,negative,negative
+sangat membantu,5,2026-07-23 13:27:47,positive,positive
+sering error kadang semua pilihan jadi ada jadwal,1,2026-07-23 13:07:33,negative,negative
+sangat mudah membantu,5,2026-07-23 12:54:19,positive,positive
+pesanan mudah lancar,5,2026-07-23 12:12:39,positive,positive
+pelayan aplikasi memuaskan mudah ini baru coba awak me rifan tiket karna berangkat kepagian,5,2026-07-23 12:10:27,positive,positive
+ga jelas abdet malah ga,1,2026-07-23 11:48:38,negative,negative
+waktu pengetikan ditambah lama,4,2026-07-23 10:59:29,positive,positive
+,5,2026-07-23 07:01:07,positive,positive
+baik gampang cuma lama tadi pas pembayaran,4,2026-07-23 06:49:04,positive,positive
+bagus,5,2026-07-23 06:07:28,positive,positive
+apik,5,2026-07-23 06:04:16,positive,positive
+minus nya sering eror udah doang,4,2026-07-23 06:01:16,positive,negative
+refurn tiket pengembalian dana terlalu lama,1,2026-07-23 05:46:35,negative,negative
+diupgrade malah bikin bingung lebih enak versi sebelumnya biasanya cuma ketik nama penumpang langsung pilihan reduksi skrg kk gk sih,2,2026-07-23 03:48:18,negative,positive
+mantab,5,2026-07-23 03:44:43,positive,positive
+oke,5,2026-07-23 02:46:22,positive,positive
+mantap udah dapet kursi bagus trus notif berhasil kutinggal nah tiba email pembayaran belum berhasil kursiku hilang malas pake kai kalo gini caranya,5,2026-07-23 00:12:26,positive,negative
+kompatible perangkat,5,2026-07-23 00:09:21,positive,negative
+udah bayar kereta udah lunas udah keluar tiket pas hari h tiket tiba ilang notifikasi pembelian berhasil di riwayat pembelian hilang,1,2026-07-22 21:41:33,negative,negative
+cara aku berpetualang dengan naik kereta,5,2026-07-22 20:47:08,positive,positive
 kereen aplikasi bs proses cepat semua pelayanan,5,2026-07-22 13:48:33,positive,positive
 pemilihan jurusan kereta lokal tersedia tpi selanjutnya keterangan kursi waktu pemilihan kereta ditulisi tersedia kursi,4,2026-07-22 08:44:20,positive,negative
 mantap,5,2026-07-22 08:36:17,positive,positive
@@ -1734,7 +1757,6 @@ aplikasi lebih bagus tetapi lebih diperbaiki untuk kereta lokal tiket dipesan le
 pengalaman buruk terus pulang lampung baturaja selalu ngga tampil jadwal tiket nya padahal capek nunggu sampe jam pagi ngga muncul eh tau tau nya tiket habis semua,1,2026-05-24 17:48:17,negative,negative
 min maaf sebelumnya knp kok pernah tiket mau pulang kampung tiket tersedia padahal nahan tidur jam pagi sama tiket nya tidak mau muncul,2,2026-05-24 17:23:50,negative,negative
 tiket lokal gak muncul bahkan sampe,1,2026-05-24 17:21:10,negative,negative
-aplikasi sering error di perbaiki,1,2026-05-24 17:19:23,negative,negative
 udah belain begadang sinyal bagus ehh tiba error tolonglaa perbaiki napa,2,2026-05-24 17:17:33,negative,negative
 jelek sering error jelek jelek jelek apus aja makin jelek error terus,1,2026-05-24 17:15:12,negative,negative
 selalu kendala pesan tiket terutama hari libur panjang lama error server down gak pernah mulus pemesanan seperti dulu sekali tiket dibatalkan langsung batal sekarang tunggu waktu menit memesan ulang buang waktu perbaiki aplikasi nya biar cepat update kursi kereta apabila penuh fix your apps,1,2026-05-24 17:11:05,negative,negative
@@ -2782,23 +2804,3 @@ tertulis tersedia pas diklik gabisa milih tanggal udah bener pas masuk gak tiket
 mohon server lebih dioptimalkan agar terjadi error pemesanan tiket ka lokal tengah malam,2,2026-04-25 17:13:20,negative,positive
 makin kesini sistem aplikasi malah makin buruk suka ngeblank,1,2026-04-25 17:12:41,negative,negative
 lemot,1,2026-04-25 17:10:24,negative,negative
-aplikasi gampang eror war tiket lokal susah banget,1,2026-04-25 17:08:14,negative,negative
-suka lag kalau buat war tiket,1,2026-04-25 17:06:28,negative,negative
-banget,5,2026-04-25 14:37:55,positive,positive
-udah login terus ganti password udah tanya adminnya gagal login terus masalahnya apa jawaban admin nggak aplikasi dah bagus malah error,1,2026-04-25 14:30:12,negative,negative
-sering error,1,2026-04-25 14:22:05,negative,negative
-aplikasinya aneh pas udah batal booking trus pesan tiket ulang malah notif booking padahal udah batal ngga riwayat tiket belum dipesan di perbaharui fiturnya biar ngga lelet,1,2026-04-25 13:16:54,negative,negative
-aplikasi rusak error mulu,1,2026-04-25 12:45:00,negative,negative
-sangat membantu,5,2026-04-25 12:38:47,positive,positive
-merasa dirugikan aja udah pendaftaran pembayaran tp tiket ilang gk masuk udh konfirmasi tp sama uang gk tiket ilang buat orang pulang pergi jujur apk tersampah,1,2026-04-25 12:33:27,negative,negative
-baik,5,2026-04-25 10:51:55,positive,positive
-aplikasi tolol ngebug trus,1,2026-04-25 03:27:30,negative,negative
-upgrade basic masukin otp loading mulu,1,2026-04-25 01:54:09,negative,negative
-maintenance terus,1,2026-04-25 01:52:27,negative,positive
-padahal pakai android kompatibel,1,2026-04-25 01:13:30,negative,negative
-sayang banget ga beli tiket hari juga aplikasinya perlu perbaikan banyak bugnya,1,2026-04-25 00:07:19,negative,negative
-susah daftar baru,1,2026-04-24 23:10:25,negative,negative
-tiket jember surabaya april cek jam gk muncul aplikasinya error duh kai lah lebih cepat lg dlm penanganan it nya krn potensi kehilangan omset,1,2026-04-24 21:24:19,negative,positive
-aplikasi kurang maksimal meskipun harga selisih lebih mahal dibanding beli langsung stasiun sehari keberangkatan ditampilkan padahal situs komersil ada biaya aplikasi implementasi sesuai,2,2026-04-24 20:57:27,negative,negative
-nice,5,2026-04-24 19:08:34,positive,positive
-banyak bug nya pemesanan tiket banyak erornya,1,2026-04-24 17:03:00,negative,negative
