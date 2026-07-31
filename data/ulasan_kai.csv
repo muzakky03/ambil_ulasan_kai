@@ -1,4 +1,26 @@
 content,score,at,label_asli,sentiment_predicted
+top,5,2026-07-30 18:22:14,positive,positive
+aplikasi sampah bolak balik bnerin sandi padahal udh ngikutin smua petunjuknya malahan kluar gjls pi,1,2026-07-30 17:42:42,negative,negative
+bagus,5,2026-07-30 16:49:38,positive,positive
+sangat berguna beli tiket kereta api,5,2026-07-30 14:23:58,positive,positive
+hello kasih penjelasan ga saya cek list perlindungan asuransi tau tau pas bayar dikenakan biaya perlindungan asuransi,1,2026-07-30 13:02:37,negative,negative
+beli refund tetep potong kocak,1,2026-07-30 11:55:35,negative,negative
+,5,2026-07-30 11:49:52,positive,positive
+bagus sangat membantu,5,2026-07-30 10:41:42,positive,positive
+bagus versi untuk versi terbaru kurang bagus ribet jd maaf jasih aza,1,2026-07-30 10:41:39,negative,positive
+aplikasi sering error jadi susah buat pesan tiket kereta sekarang lagi error selalu muncul tulisan no matching property id,1,2026-07-30 10:19:37,negative,negative
+mudah dioperasikan aman,5,2026-07-30 08:26:50,positive,positive
+saya gagal terus mau pesen tiket,1,2026-07-30 07:37:39,negative,negative
+aplikasi gak mau pesan tiket aja sulit ny minta ampun,1,2026-07-30 07:14:52,negative,negative
+baik,5,2026-07-30 06:54:17,positive,positive
+sangat mudah cepat ternyata pakai aplikasi kai access,5,2026-07-30 06:25:48,positive,positive
+ga masuk,5,2026-07-30 03:15:34,positive,negative
+puas,5,2026-07-30 03:00:11,positive,positive
+sip mudah,4,2026-07-30 02:54:58,positive,positive
+,4,2026-07-30 01:45:53,positive,positive
+good,5,2026-07-30 01:40:51,positive,positive
+pemesan tiket lewat accessby kai sangat praktis sangat membantu,5,2026-07-30 01:38:27,positive,positive
+sangat membantu,5,2026-07-29 19:49:49,positive,positive
 pengennya lebih mudah pembelian tiket kereta api yang didapat malah pusing waktu pembuatan akun s d pemesanan setahuku dulu aplikasinya mudah kenapa aplikasi baru malah merepotkan,1,2026-07-29 13:02:32,negative,positive
 versi terbaru tiap habis isi data selalu no matching property id terus harus ulang x baru sering update kirain bakalan makin bagus malah makin eror,2,2026-07-29 11:57:10,negative,negative
 ,5,2026-07-29 10:54:15,positive,positive
@@ -28,7 +50,6 @@ nice app,5,2026-07-28 06:10:51,positive,positive
 oke mudah pakainya,4,2026-07-28 03:57:29,positive,positive
 bagus,5,2026-07-28 03:04:04,positive,positive
 mantapppp,5,2026-07-28 02:43:01,positive,positive
-aplikasi gangguan terus,1,2026-07-28 02:31:24,negative,negative
 ,5,2026-07-28 00:51:19,positive,positive
 pelayanan bagus sekali,5,2026-07-28 00:03:07,positive,positive
 puas,5,2026-07-27 23:58:54,positive,positive
@@ -2206,7 +2227,6 @@ transaksi cepat,5,2026-05-14 05:11:09,positive,positive
 good,5,2026-05-14 04:47:57,positive,positive
 memudahkan pelayanan penumpang,5,2026-05-14 04:14:00,positive,positive
 jelaskan perangkat sanya bilang kontibel dgn perangkat apa alasan nya,1,2026-05-14 03:06:56,negative,negative
-update tulisan jadi besar besar pas pesen kursi malah jadi kecil bnget balikin seperti semula malah jadi susah,1,2026-05-14 02:58:37,negative,negative
 eror bgt ga asik sering tiba jadwal tiket gada semua padahal urgent,1,2026-05-14 02:47:59,negative,negative
 mudah,5,2026-05-14 02:36:00,positive,positive
 aplikasi lelet mau pesen tiket aja bnyak sarat nya,1,2026-05-14 02:26:50,negative,positive
@@ -2787,23 +2807,3 @@ sering gak bagian tiket donk kai tambah kereta buat kertapati lampung,5,2026-04-
 udah jam perjalanan tidak memesan makanan,2,2026-04-27 04:41:36,negative,negative
 ga menambakan yiket yg travrloka gimana nih,4,2026-04-27 02:25:13,positive,negative
 mantab,5,2026-04-27 00:39:13,positive,positive
-awalnya beri bintang sekarang turunkan sering eror saat pembayaran pembayaran tiket ka lokal lebih banyak dong pemilihan pembayarannya jangan cuma link aja ovo qris dibayar kode tiket aktif akhirnya gagal uang hangus pembatalan menunggu minggu tidak masuk saldo ayo perbaiki sistemnya perbanyak pilihan pembayaran tiket ka lokal jangan sering eror thnks,4,2026-04-26 15:13:11,positive,negative
-gak login woi ngeliat jadwal aja gak access dah lah hayolah kenapa ini,1,2026-04-26 15:05:37,negative,negative
-ya beli tiket udah transaksi nya dana pas cek kai access gaada tiketnya di cek gaada riwayat transaksi nya,2,2026-04-26 14:35:49,negative,negative
-lemottty,1,2026-04-26 14:23:11,negative,positive
-aplikasi lelet,1,2026-04-26 13:50:16,negative,negative
-server sering eror pas ditinggal bentar kembali saat tidak eror tiket habis email alamat pengaduan tidak direspon,2,2026-04-26 13:48:29,negative,negative
-jujur kecewa banget udh beberapa kali pemesanan tiket ga muncul trs saldo jadi berkurang refund ga nanya cs malah suruh nunggu jam terus wkwk,1,2026-04-26 11:47:03,negative,negative
-lebih cepat prlayanannya,5,2026-04-26 10:49:36,positive,positive
-pesen tiket gk terus udh tinggal pembayaran malah eror knp eror terus sii padahal sinyal bagus lebih ditingkatkan dong biar oesen tiket lebih mudah,1,2026-04-26 10:27:07,negative,positive
-mantap lah,5,2026-04-26 09:35:00,positive,positive
-eror terus giliran d chat d wa responya lama banget,1,2026-04-26 09:02:15,negative,negative
-kurang bngt ni app qris ga muncul diliat dri proses menunggu pembayaran jga gaada nunggu waktu hbs ngebugg nya parahhh,2,2026-04-26 08:22:12,negative,negative
-sangat membantu perjalanan,5,2026-04-26 07:03:32,positive,positive
-bagus bagus,5,2026-04-26 06:49:58,positive,positive
-baik,5,2026-04-26 06:49:37,positive,positive
-mantap,5,2026-04-26 06:14:33,positive,positive
-banget benerin aplikasinya kayak tahun sebelum lebaran,1,2026-04-26 05:47:52,negative,positive
-memuaskan,5,2026-04-26 05:46:15,positive,positive
-bagus,5,2026-04-26 05:27:49,positive,positive
-gjls gbisa daftar trs udh ketentuannya maksimal pesan satu sampe acara harus diundur trs sampe sore dr jam sampe jam set gbisa udh ganti kereta gt trs cs jg g membantu disuruh nunggu trs,1,2026-04-26 05:24:52,negative,negative
