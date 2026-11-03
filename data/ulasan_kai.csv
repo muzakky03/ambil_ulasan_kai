@@ -1,4 +1,36 @@
 content,score,at,label_asli,sentiment_predicted
+kai mantap,5,2026-11-02 22:37:52,positive,positive
+bagus mudah berpergian,5,2026-11-02 22:06:14,positive,positive
+terimakasih kai,5,2026-11-02 17:09:57,positive,positive
+kai hebat,5,2026-11-02 17:00:56,positive,positive
+aplikasi knttllll suka keluar sendiri ajgvv akun kaga jelas nih aplikasi ngalah ngalahin mobile legend beratnya,1,2026-11-02 16:08:11,negative,negative
+akhir akhir kereta commuter sering kali delay itu ga sebentar bahkan diatas jam jangan murah jadi undur jadwal seenaknya,1,2026-11-02 15:38:25,negative,negative
+gangguan mulu aplikasinya gak buat nyari rute kereta,5,2026-11-02 15:31:57,positive,negative
+prosesnya mudah praktis cepat,5,2026-11-02 15:08:36,positive,positive
+terdetekai aplikasi berresiko aman,1,2026-11-02 14:55:22,negative,positive
+ga di pencet keboardnya pas pencarian segera perbaiki,1,2026-11-02 13:49:59,negative,negative
+pelayanan prima,5,2026-11-02 11:18:09,positive,positive
+halo min mengalami bug bagian kolom pencarian nama stasiun di klik keyboard sering mental di klik beberapa kali,4,2026-11-02 10:09:07,positive,positive
+sih suka gak di buka,4,2026-11-02 09:54:43,positive,positive
+mantap lebih mudah,5,2026-11-02 08:56:05,positive,positive
+apk nya ngeselin pelayanannya bagus jadi aku kasih bintang yawww,4,2026-11-02 08:52:38,positive,positive
+good,5,2026-11-02 08:17:01,positive,positive
+ga bagus berkali kali mau pesan tiket antar kota susah minta ampun ga bisaaaa aplikasi milik pemerintah manaaaa adaaa bagus,1,2026-11-02 06:42:36,negative,positive
+kenapa tiba tiba logout udah login logout login logout kena lock jam,1,2026-11-02 06:41:17,negative,negative
+mudah diaplikasikan,5,2026-11-02 06:22:03,positive,positive
+baguss,5,2026-11-02 05:09:57,positive,positive
+bagus,5,2026-11-02 04:38:48,positive,positive
+memudahkan calon penumpang naik kereta kemanapun berada mungkin perlu pemutakhiran nama stasiun lokasi stasiun calon penumpang tidak familiar daerah tujuan memperkirakan daerah mana stasiun tempat tujuannya berada,4,2026-11-02 04:28:22,positive,positive
+pelayanan baik ok,5,2026-11-02 04:11:17,positive,positive
+tambahin metode pembayaran ewalled gopay dong ato bank mandiri,4,2026-11-02 03:49:13,positive,positive
+aplikasi ribet gua udah top up malah gabisa dipake,1,2026-11-02 02:59:11,negative,negative
+bagus,5,2026-11-02 02:58:07,positive,positive
+sih aplikasi bikinan pemerintah keperluan orang banyak selalu busuk kayak gini dana gede outputnya selalu menye menye baru mau ngetik pencarian aja udah dibikin emosi keyboardnya yg super lelet timbul tenggelam gak jelas,1,2026-11-02 02:43:28,negative,negative
+beli tiket statusnya pending n terbeli akhirnya beli tiket cek malah yg pertama berhasil alhasil punya tiket n bisa di refound padahal kesalahan sistem pelanggan setia kai baru pernah ngerasa dikecewain,1,2026-11-02 02:43:14,negative,negative
+tiba tiba pembatalan tiket stasiun kereta gak berangkat awal gak gausah tiket nya merugikan konsumen gak profesional,1,2026-11-02 02:41:09,negative,negative
+top up aja ribet prosesnya lebih lambat dripada bkkin martabak,1,2026-11-02 02:36:02,negative,negative
+matap kok tdk di install,5,2026-11-02 01:49:49,positive,negative
+ribet,1,2026-11-02 01:35:36,negative,negative
 ,5,2026-11-02 00:43:57,positive,positive
 praktis memudahkan pembelian tiket kereta api,5,2026-11-01 23:10:22,positive,positive
 padahal udh pembayar tepat waktu tiket gak terus paling parahnya uang gak balik,2,2026-11-01 22:37:32,negative,negative
@@ -1928,7 +1960,6 @@ update aplikasi jadi sangat lemot ga digunakan book tiket mantap sekali update b
 mengalami ganguan jaringan sudah membayar di lihat tiket masuk malah jaringan tidak ada padahal jaringan kencang,1,2026-08-11 01:10:03,negative,negative
 lemot,1,2026-08-11 01:09:27,negative,negative
 sering terjadi error,4,2026-08-11 01:05:39,positive,negative
-tiba tiba error ga lihat boarding pass,1,2026-08-11 01:00:45,negative,negative
 error terus bagian pembayaran menu melihat tiket,1,2026-08-11 00:44:07,negative,negative
 update plh error buka jadwal bln kedepan gk payah,1,2026-08-11 00:42:49,negative,negative
 aplikasi eror mau pilih jadwal gak bisa bikin kesel diperbaiki,1,2026-08-11 00:42:09,negative,negative
@@ -2781,33 +2812,3 @@ kekmana pemesanan nya sik masa sini udh habis pdhl blm buka mesen masa hari gak 
 nice,5,2026-07-07 01:53:31,positive,positive
 ,5,2026-07-07 01:46:55,positive,positive
 yess,5,2026-07-07 01:01:27,positive,positive
-mantab,5,2026-07-07 00:38:26,positive,positive
-pelanggan setia kereta api semenjak kecil sekarang menjadi lansia pokoknya kereta api indonesia sahabat perjalanan yg paling suka,5,2026-07-07 00:26:06,positive,positive
-makin nyaman naik kereta mudah hemat cepat,5,2026-07-07 00:06:09,positive,positive
-,5,2026-07-06 23:36:28,positive,positive
-aplikasi bumn ga aman banget data tiba berubah adanya notifikasi tidak terdetek melalui sistem cs nya waktunya keperluan klaim asuransi data diaplikasi tiba berubah ga digunakan klaimnya hangus sangat merugikan semoga perbaikan bahwasannya kebocoran data disini sistemnya patut diwaspadai buat semuanya,1,2026-07-06 23:00:35,negative,negative
-sangat mudah,5,2026-07-06 21:51:16,positive,positive
-murah banget,4,2026-07-06 21:38:03,positive,positive
-,5,2026-07-06 19:44:19,positive,positive
-sistem sangat mudah sangat membantu perjalanan,5,2026-07-06 16:16:54,positive,positive
-pesan gagal terus pesanan masuk pembayarann pembayarannya ada kode bayarnya kemudian batalkan coba tapi terus begitu,1,2026-07-06 14:53:24,negative,negative
-oke,4,2026-07-06 14:47:27,positive,positive
-wehh gimana sih kok kode otp benar sesuai dikirim sama kai kode tetep salah aneh,1,2026-07-06 14:00:01,negative,negative
-beli tiket kereta check in online e boarding pass jadwal keterlambatan update info kursi gerbong,5,2026-07-06 12:18:47,positive,negative
-bagus,5,2026-07-06 10:29:53,positive,positive
-the best pelayanan,4,2026-07-06 10:04:05,positive,positive
-aplikasi gak d buka,1,2026-07-06 08:56:01,negative,negative
-mudah digunakan,5,2026-07-06 08:54:50,positive,positive
-uda coba make hp banyak jadwal gk muncul bahkan sampe ganti bulan depan jg sama aja make android maupun ip sama aja uda install ulang jg sama aja benerin dong,1,2026-07-06 07:17:43,negative,negative
-sangat bagus membantu,5,2026-07-06 06:20:27,positive,positive
-sangat bagus,5,2026-07-06 06:11:59,positive,positive
-pramex harusnya yg diutamakan yg punya tiket buat apa nge war tiket jauh seminggu keberangkatan pas hari h ttp aja ngga dapet kereta,1,2026-07-06 05:40:33,negative,negative
-penggunaan pramek udah dapet tiket jauh jauh hari ttp aja ngga dapet kereta harusnya utamakan yg punya tiket dulu,2,2026-07-06 05:38:42,negative,negative
-tiket susah jarang percuma aplikasi,1,2026-07-06 03:55:27,negative,negative
-lelet sering ga keluar jadwal kereta yg dicari,5,2026-07-06 03:01:00,positive,negative
-bagus,5,2026-07-06 02:48:39,positive,positive
-coba d perbaiki di tingkatkan biar gak menjengkelkan,2,2026-07-06 02:35:29,negative,negative
-ya bisa pake aplikasi nya semua jadwal kereta kosong terus ga stasiun tanah abang nya pencarian,1,2026-07-06 01:21:27,negative,negative
-anak kecil tahun lebih beberapa bulan udah anggap dewasa heran minimal tahun lah buat anak buat beli tiket,1,2026-07-05 23:28:39,negative,positive
-yth ka kai yogyakarta purworejo kutoarjo ka direktur kai yogyakarta purworejo kutoarjo mohon bgian tiket ka jrk jau mggunakan sistem aplikasi kai acces pmbelian tiket online tlg diperbarui apabila sdh ketentuan pmbelian tiket dlm jam jam menit sblm brpergian minta segera dimunculkan kai acces jangan ditunda krena keefisien dlm plyanan publik non publik trmksh slm hormat,2,2026-07-05 17:44:09,negative,positive
-udah ganti pasword dimasukin tetep aja salah pasword,1,2026-07-05 17:31:06,negative,negative
