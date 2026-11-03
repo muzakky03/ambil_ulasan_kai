@@ -1,4 +1,30 @@
 content,score,at,label_asli,sentiment_predicted
+,5,2026-11-02 00:43:57,positive,positive
+praktis memudahkan pembelian tiket kereta api,5,2026-11-01 23:10:22,positive,positive
+padahal udh pembayar tepat waktu tiket gak terus paling parahnya uang gak balik,2,2026-11-01 22:37:32,negative,negative
+kursi kereta jawa terlalu siku ganti yg miring dikit,4,2026-11-01 18:55:04,positive,positive
+terbaik,5,2026-11-01 17:19:55,positive,positive
+i love access by kai semoga makin sukses kedepannya terima kasih memudahkan aku luar kota,5,2026-11-01 16:38:47,positive,positive
+mantab refund walaupun k,5,2026-11-01 16:12:04,positive,positive
+salah satu kebangangan wni,5,2026-11-01 15:50:56,positive,negative
+memuaskan,5,2026-11-01 14:57:26,positive,positive
+sangat membantu perjalanan,5,2026-11-01 14:14:08,positive,positive
+aplikasi bermasalah tiba logout pas mau login mnta reset password giliran udah berhasil reset password mau log in ulang malah akun kelock perusahaan bumn kaya kok aplikasi nya ga mutu,1,2026-11-01 13:04:51,negative,negative
+sekelas kai bikin app kwk gini bug nya gilal bener dah,1,2026-11-01 12:47:01,negative,negative
+jelek bapuk,1,2026-11-01 12:06:04,negative,negative
+apk lemot pembayaran berhasil status gagal alhasil ga jadi berangkat karna tiket habis go show mana sulit shibbal,1,2026-11-01 10:41:10,negative,negative
+,5,2026-11-01 08:23:14,positive,positive
+pelayanan baik,5,2026-11-01 05:45:03,positive,positive
+bagus sekali,5,2026-11-01 05:39:14,positive,positive
+swipe lihat kode verifikasi malah ganti halaman jelek banget yg koding siapa ga uji coba dulu,1,2026-11-01 04:47:38,negative,negative
+pake acara daftar member apa si kopet situ gak ngirim kode verif akun gua di blokir lol,1,2026-11-01 04:38:04,negative,negative
+kereta api lokal arjonegoro ditambah gerbongnya armadanya masa mesen tiket jam malam kalau mau kaya war tiket aja,1,2026-11-01 04:17:59,negative,negative
+kenapa aplikasinya bisa login lalu kolom buat ngetik bisa menggunakan pembaca layar pengguna tunanetra mohon diperbaiki,1,2026-11-01 03:42:13,negative,negative
+top,5,2026-11-01 03:39:45,positive,positive
+sangat puas pelayanan,5,2026-11-01 03:32:36,positive,positive
+gampang banget,5,2026-11-01 02:55:27,positive,positive
+beli tiket desember gk pernah muncul list tiketnya,1,2026-11-01 01:10:35,negative,negative
+aku instal lg kai access krn mungkin error apk krn pesan tiket selalu ke awal padahal email kata sandi ku bnar knp mudah mudahan dgn instal apk bisa normal lg,5,2026-11-01 00:45:21,positive,negative
 aplikasi busuk pesen tiket kereta tambah ruwet pesen kode pembayarannya muncul saya telfon cs nya cs nya gak kirim ulang kode pembayarannya malah suruh pesen ulang keburu habis bro tiket e dasar aplikasi busuk cuihhh,1,2026-10-31 18:13:58,negative,negative
 deymm broo,5,2026-10-31 17:40:16,positive,positive
 sebenarnya aplikasi sangat membantu memudahkan pemesanan tiket kereta api ada beberapayg perlu diperbaiki systemnya topup harus menunggu menit dana masuk ingin memasukkan no kartu debit tidak padahal aplikasi sudah update edited baru update lah aplikasinya malah lemot mau ubah seat aja susahnya minta ampun x login tetep aja susah ubah seat,1,2026-10-31 17:20:25,negative,positive
@@ -281,7 +307,6 @@ mudah digunakan fitur lengkap sangat membantu,5,2026-10-15 02:19:12,positive,pos
 perjalanan sangat menyenangkan aman nyaman,5,2026-10-15 02:13:21,positive,positive
 pelayanan buruk,1,2026-10-15 02:11:41,negative,negative
 terimakasih pt kai negeriku,5,2026-10-15 01:12:46,positive,positive
-gangguan mulu aplikasinya gak buat nyari rute kereta,5,2026-10-15 00:41:40,positive,negative
 perjalanan yg aman,5,2026-10-14 21:44:53,positive,positive
 mantapkan sistem,5,2026-10-14 17:38:28,positive,negative
 woy gw mau keluar malah pemeliharaan pemberitahuan nya payah,1,2026-10-14 17:08:24,negative,negative
@@ -644,7 +669,6 @@ sering gangguan waktu mau dipake jadi gak akses tiket udah dibeli,1,2026-09-28 0
 aplikasi sekarang berat banget,2,2026-09-28 03:55:42,negative,positive
 semua tiket melalui apk sering down kan aneh,1,2026-09-28 03:33:32,negative,negative
 melakukan pembayaran di app ada pembayaran app nya lemot kalau buka bagian tiket loading terus,2,2026-09-28 03:31:19,negative,negative
-jaringan lemot sering keluar akun,1,2026-09-28 03:28:36,negative,negative
 tahun udah serba online mempermudah akses adanya apk bukannya mempermudah ada mempersulit kuota internet hp mendukung saldo giliran pesan tiket muter kagak jelas penguna apk sering ketunda batal batal naik kreta apk sangat mempersulit garcep langsung bukan mempermudah dibikin sistem mudah diakses saya bilangiin sekali ini sistem mempersulit pengguna,1,2026-09-28 03:27:20,negative,negative
 aplikasi monyet giliran urgent malah kaga,1,2026-09-28 03:23:07,negative,negative
 aplikasi stabil sering mengalami gangguan server maintenance jam sibuk masih bug pembayaran kaipay saldo terpotong x lipat satu pemesanan tiket,1,2026-09-28 03:15:08,negative,negative
@@ -1634,7 +1658,6 @@ mudah pemakaian aplikasi pilihan pembayaran,4,2026-08-13 22:44:18,positive,posit
 lebih baik aplikasinya,5,2026-08-13 21:30:08,positive,positive
 tisak di instal hp kompatibel,1,2026-08-13 17:17:05,negative,positive
 goood,5,2026-08-13 15:18:35,positive,positive
-matap,5,2026-08-13 14:40:05,positive,positive
 sangat membantu,5,2026-08-13 14:34:06,positive,positive
 mantap,5,2026-08-13 13:56:58,positive,positive
 ,5,2026-08-13 13:29:58,positive,positive
@@ -1672,7 +1695,6 @@ puas,5,2026-08-12 07:20:43,positive,positive
 mantap,5,2026-08-12 06:16:48,positive,positive
 good job,5,2026-08-12 05:43:21,positive,positive
 kai access sekarang cuman cek lihat jadwal kereta beberapa kali sehari langsung bisa dipakai yah jadwal kereta langsung kosong padahal mau pesan tiket kacauuu klo pakai aplikasi pemesanan pihak bisa di kai access muncul tadinya cek jadwal jadi bisa pesan,1,2026-08-12 05:13:30,negative,negative
-tambahin metode pembayaran ewalled gopay dong ato bank mandiri,5,2026-08-12 03:05:37,positive,positive
 aplikasi ny makin buruk ga pesan tiket padahal dulu aplikasinya sangat mudah beli tiket sekarang makin ribet pdahal mau pesan tiket di persulit,1,2026-08-12 01:42:20,negative,negative
 sering error aplikasinya keretanya telat hadehhh,1,2026-08-12 01:27:43,negative,negative
 harga tiket makin mahal ga kejang au sama masyarakat bawah yg kereta siluman tiket habis terus,1,2026-08-12 00:55:06,negative,negative
@@ -2291,7 +2313,6 @@ hello kasih penjelasan ga saya cek list perlindungan asuransi tau tau pas bayar 
 beli refund tetep potong kocak,1,2026-07-30 11:55:35,negative,negative
 ,5,2026-07-30 11:49:52,positive,positive
 bagus sangat membantu,5,2026-07-30 10:41:42,positive,positive
-bagus versi untuk versi terbaru kurang bagus ribet jd maaf jasih aza,1,2026-07-30 10:41:39,negative,positive
 aplikasi sering error jadi susah buat pesan tiket kereta sekarang lagi error selalu muncul tulisan no matching property id,1,2026-07-30 10:19:37,negative,negative
 mudah dioperasikan aman,5,2026-07-30 08:26:50,positive,positive
 saya gagal terus mau pesen tiket,1,2026-07-30 07:37:39,negative,negative
@@ -2790,25 +2811,3 @@ ya bisa pake aplikasi nya semua jadwal kereta kosong terus ga stasiun tanah aban
 anak kecil tahun lebih beberapa bulan udah anggap dewasa heran minimal tahun lah buat anak buat beli tiket,1,2026-07-05 23:28:39,negative,positive
 yth ka kai yogyakarta purworejo kutoarjo ka direktur kai yogyakarta purworejo kutoarjo mohon bgian tiket ka jrk jau mggunakan sistem aplikasi kai acces pmbelian tiket online tlg diperbarui apabila sdh ketentuan pmbelian tiket dlm jam jam menit sblm brpergian minta segera dimunculkan kai acces jangan ditunda krena keefisien dlm plyanan publik non publik trmksh slm hormat,2,2026-07-05 17:44:09,negative,positive
 udah ganti pasword dimasukin tetep aja salah pasword,1,2026-07-05 17:31:06,negative,negative
-pembaharuan jelek nama sering dibilang booking padahal rumit lebih mudah sebelumnya,1,2026-07-05 16:19:30,negative,positive
-deskripsinya refund cancel ternyata respon cs yg lamban transparan tanya alasan tp jawabannya ambigu tiket pas dicek aplikasi tidak ditemukan,1,2026-07-05 15:54:49,negative,negative
-tiket makin mahal naik seenak jidat nya dri rb tasik gubeng sekarang jdi an gilaaa,1,2026-07-05 13:51:35,negative,negative
-mantap,5,2026-07-05 13:23:51,positive,positive
-alhamdulillah lancar,5,2026-07-05 13:10:56,positive,positive
-makin gk jelas apl aneh susah nyari jadwal sering eror,1,2026-07-05 12:57:04,negative,negative
-semoga semakin lebih baik,4,2026-07-05 12:29:44,positive,positive
-sangat membantu sekali ttapi terkadang eror pemesanan tiket sedang ramai,5,2026-07-05 12:15:03,positive,positive
-sangat bermanfaat mudah digunakan,5,2026-07-05 11:45:35,positive,positive
-dikasih notif diaplikasinya bila datang paling telat menit keberangkatan tiket hangus gara datang tepat waktu selisih beberapa menit makin kesini makin kesana kebijakannya,1,2026-07-05 11:42:31,negative,negative
-,4,2026-07-05 10:57:56,positive,positive
-sering tdk login sedang pemeliharaan,4,2026-07-05 10:45:47,positive,negative
-aplikasinya selalu error hari minggu sore sangat menyusahkan customer pengguna,1,2026-07-05 09:15:15,negative,negative
-benerin lah pemesanannya waktu salah input data saya batalkan pesanan pesan ulang selalu bisa padahal pesanan saya batalkan sampe x terus udah gabisa pesan karena maks alhasil kehabisan tiket buat hari keberangkatan ga banget pemesanannya udah dibatalin ttp gabisa pesen ulanggg,1,2026-07-05 08:42:09,negative,negative
-bagus,5,2026-07-05 08:09:59,positive,positive
-makin kesini makin gak bangett update malah jadi ribet ga jelas mending gausah update deh kalau jadi kayak gini ribet banget asli mana error mulu sistemnya,1,2026-07-05 07:38:12,negative,negative
-terlalu banyak bug aplikasi dalam pembatalan pembayaran selalu transaksi not found,1,2026-07-05 07:18:52,negative,negative
-membantu sx good,5,2026-07-05 05:42:47,positive,positive
-terbaik,5,2026-07-05 04:12:30,positive,positive
-tiap mau beli banyak input data diri manual data yg di save orng,2,2026-07-05 03:18:04,negative,negative
-,5,2026-07-05 03:17:44,positive,positive
-jos jos,4,2026-07-05 03:16:03,positive,positive
