@@ -1,4 +1,27 @@
 content,score,at,label_asli,sentiment_predicted
+,4,2026-11-23 03:54:12,positive,positive
+sangat membantu gesss,5,2026-11-23 03:31:33,positive,positive
+responnya cepat,5,2026-11-23 01:03:46,positive,positive
+akun tidak d perbarui,4,2026-11-22 23:41:15,positive,negative
+good,5,2026-11-22 23:20:51,positive,positive
+bagus,5,2026-11-22 22:27:07,positive,positive
+kacau sisa saldo isi pulsa saldo hilang pulsa ga masuk ngakak cik,1,2026-11-22 22:24:26,negative,negative
+baik,5,2026-11-22 20:44:32,positive,positive
+pesan tiket mudah bayar mudah batalkan jg mudah semua dlm genggaman thanks very much kai,5,2026-11-22 13:23:42,positive,positive
+makin kesini malah eror aplikasi buat beli tiket goshow,1,2026-11-22 13:16:05,negative,negative
+membantu sekali,5,2026-11-22 13:02:13,positive,positive
+ternyata sdh banyak yg komplain tp blm perbaikan dr pihak aplikasi niat buru mau beli tiket online ehh pas mau bayar malah gabisa aneh bgt kl memang update apk minimal uji coba dl sdh laik pake ato ga apk baru nya jngn stelah komplain baru mau d perbaiki lagi payment pake kaspro yg sangat merugi karna selalu potongan adm top up saldo kalau dlm satu hari top up sbanyak x potongan adm nya sbanyak x banyak loh,1,2026-11-22 12:30:27,negative,negative
+oke,5,2026-11-22 11:01:04,positive,positive
+sangat membantu,5,2026-11-22 10:52:16,positive,positive
+oke,5,2026-11-22 09:36:41,positive,positive
+lumayan pusing awal pemakaian viturnya baru setelah tau tambah simple,4,2026-11-22 08:59:46,positive,positive
+mantaaaappp,5,2026-11-22 08:43:40,positive,positive
+bagus,5,2026-11-22 08:39:37,positive,positive
+buru buru mau login ngk ngetik apapun padahal habis tanya cs disuruh uninstal lalu instal lalu mau ngetik otp ngk lalu mau milih stasiun ga bisa bisa ngetik srol kebawah padahal internet sangat stabil,1,2026-11-22 08:39:35,negative,negative
+great,5,2026-11-22 06:00:34,positive,positive
+makasih buat kai kalian sangat membantu,5,2026-11-22 05:37:45,positive,positive
+aplikasi taik mau beli tiket aja ribet banget upgrade mamber basic sdh ikutin proses upgrade gagal terus taik taik kepepet buat ribet sama aplikasi,1,2026-11-22 04:13:31,negative,negative
+keyboard nya timbul tenggelam susah mau ngetiknya,4,2026-11-22 04:05:41,positive,negative
 oke,4,2026-11-21 22:24:55,positive,positive
 penanganan cs g bermutu tiket tidak berubah status pembayaran meskipun terbayar menghancurkan usaha untuk mendapatkan tiket sinkronisasi lambat bug dibiarkan,1,2026-11-21 17:51:12,negative,negative
 aplikasi bumn paling kagak jelas,1,2026-11-21 16:46:27,negative,negative
@@ -27,7 +50,6 @@ skli,5,2026-11-20 12:48:51,positive,positive
 josjis,5,2026-11-20 12:07:20,positive,positive
 jujur sangat kecewa merasa dirugikan menggunakan kai pay melakukan pengisian saldo melalui brimo november uang terpotong rekening saldo masuk kai pay hingga november hari masalah selesai bukan uang gratis uang pengguna harus dipertanggungjawabkan mohon segera selesaikan masalah jangan biarkan pengguna kehilangan kepercayaan layanan kai pay,1,2026-11-20 11:28:52,negative,negative
 akses cepat pelayanan tiket,5,2026-11-20 10:26:48,positive,positive
-taio,5,2026-11-20 10:22:10,positive,positive
 bagus sekali,5,2026-11-20 09:40:12,positive,positive
 aplikasinya eror gak jelas gak tahu apa emang gak jadwal apa kali mau cek jadwal selalu muncul kotak merah tulisan rstng,1,2026-11-20 09:35:35,negative,negative
 ,4,2026-11-20 08:56:46,positive,positive
@@ -60,7 +82,6 @@ mantap layanannya,5,2026-11-19 07:30:37,positive,positive
 sangat senang,4,2026-11-19 06:34:27,positive,positive
 very good,5,2026-11-19 06:15:20,positive,positive
 oke,5,2026-11-19 06:02:49,positive,positive
-ayoo dong kai stasiun kecil yg aktif skrng d nonaktifkan d aktifkan contohnya stasiun kalitidu biar kalo mudik lbh dket dr rumah dulu enak bgt naik dr kalitidu aja udah skrng kalo naik turun dr stasiun bojonegoro rumahnya msh jam an lg kalo dr rumah stasiun pun gk kejangkau ojek online ayoo dong stasiun kalitidu aktifin kai makasihhhh,5,2026-11-19 04:28:06,positive,negative
 semenjak update kok susah waktu input masukan keyboard nya sering hilang sendiri bikin gk nyaman,1,2026-11-19 04:24:35,negative,negative
 oke banget,5,2026-11-19 00:53:26,positive,positive
 aplikasi lambat mau mengetik pencarian susah,1,2026-11-19 00:10:40,negative,negative
@@ -2797,22 +2818,3 @@ fiilternya gak jalan dipencet berkali baru jalan eh malah kepencet tiket,1,2026-
 mantap,5,2026-07-28 09:54:03,positive,positive
 bgt,5,2026-07-28 09:04:13,positive,negative
 tampilannya rapi modern mudah dipahami proses registrasinya terlihat sederhana semoga performanya lancar terus menghadirkan fitur fitur bermanfaat,5,2026-07-28 08:54:26,positive,positive
-tampilkan semua kereta yg naiki di stasiun tersebut,4,2026-07-28 06:54:44,positive,positive
-,5,2026-07-28 06:45:42,positive,positive
-banyak bug mau bayar make qris ga mau nunjukin qr,1,2026-07-28 06:24:31,negative,negative
-nice app,5,2026-07-28 06:10:51,positive,positive
-oke mudah pakainya,4,2026-07-28 03:57:29,positive,positive
-bagus,5,2026-07-28 03:04:04,positive,positive
-mantapppp,5,2026-07-28 02:43:01,positive,positive
-,5,2026-07-28 00:51:19,positive,positive
-pelayanan bagus sekali,5,2026-07-28 00:03:07,positive,positive
-puas,5,2026-07-27 23:58:54,positive,positive
-good,5,2026-07-27 23:31:23,positive,positive
-bagus cepat,5,2026-07-27 22:57:07,positive,positive
-aplikasi pembatalan selalu berfungsi perbaiki deh benar seakan menahan uang penumpang kacau mania,1,2026-07-27 22:34:04,negative,negative
-mantabek,4,2026-07-27 22:16:53,positive,positive
-good,5,2026-07-27 11:09:59,positive,positive
-ga ulgrade basic,1,2026-07-27 10:10:12,negative,negative
-baik cepat mempermudah,5,2026-07-27 09:42:57,positive,positive
-top,1,2026-07-27 09:13:20,negative,positive
-aplikasi yg bagus,5,2026-07-27 07:04:38,positive,positive
